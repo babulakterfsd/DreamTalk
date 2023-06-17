@@ -1,5 +1,6 @@
 'use client';
 
+import Analytics from '@/components/ui/Analytics';
 import Features from '@/components/ui/Features';
 import Hero from '@/components/ui/Hero';
 import Monetize from '@/components/ui/Monetize';
@@ -19,6 +20,7 @@ export default function Home() {
       <Possibilities />
       <Features />
       <Monetize />
+      <Analytics />
     </>
   );
 }
