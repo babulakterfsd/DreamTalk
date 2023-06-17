@@ -2,6 +2,7 @@
 
 import Analytics from '@/components/ui/Analytics';
 import Features from '@/components/ui/Features';
+import Footer from '@/components/ui/Footer';
 import Hero from '@/components/ui/Hero';
 import Monetize from '@/components/ui/Monetize';
 import Newsletter from '@/components/ui/Newsletter';
@@ -23,6 +24,7 @@ export default function Home() {
       <Monetize />
       <Analytics />
       <Newsletter />
+      <Footer />
     </>
   );
 }

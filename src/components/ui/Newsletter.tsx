@@ -14,7 +14,7 @@ const Newsletter = () => {
           <form className="relative">
             <input
               type="email"
-              className="lg:w-[600px] h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none lg:-ml-3 "
+              className="lg:w-[600px] h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none lg:-ml-3 bg-opacity-60"
               placeholder="e.g. hello@dreamtalk.ai"
               required
             />
