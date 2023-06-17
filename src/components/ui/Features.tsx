@@ -44,7 +44,7 @@ const Features = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-center lg:ml-16">
+        <div className="flex justify-center lg:ml-28">
           <button
             type="submit"
             className="gradientBg absolute -ml-32 py-2 mt-2  lg:px-6 rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center"
