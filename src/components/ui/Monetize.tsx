@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import redelips from '../../../public/assets/images/Ellipse 2484.png';
 import rightarrow from '../../../public/assets/images/arrow-right.png';
 import monetize from '../../../public/assets/images/video.png';
 
@@ -14,11 +15,16 @@ const Monetize = () => {
             AI Chatbot
           </h1>
         </div>
-        <div className="flex justify-start gap-x-20 items-center">
+        <div className="flex justify-start gap-x-20 items-center lg:relative">
           <Image
             src={monetize}
             alt="monetize"
             className="lg:h-[407px] lg:w-[547px]"
+          />
+          <Image
+            src={redelips}
+            alt="monetize"
+            className="lg:absolute -top-24 -left-40"
           />
           <div className="textcontainer ">
             <p className="lg:mb-14 lg:w-[400px]">
