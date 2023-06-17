@@ -5,29 +5,33 @@ import monetize from '../../../public/assets/images/video.png';
 
 const Monetize = () => {
   return (
-    <div className="lg:py-36 ">
+    <div className="py-20 lg:py-36">
       <div className="main-container text-center">
         <div className="title lg:mb-10">
-          <h1 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal">
+          <h1 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
             Monetize Your <br /> Fanbase with Our{' '}
           </h1>
-          <h1 className=" gradientText font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:ml-80 lg:mt-4">
+          <h1 className=" gradientText font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:ml-80 lg:mt-4 hidden lg:block">
             AI Chatbot
           </h1>
         </div>
-        <div className="flex justify-start gap-x-20 items-center lg:relative">
+        <div className="flex flex-col lg:flex-row justify-start gap-x-20 items-center lg:relative">
           <Image
             src={monetize}
             alt="monetize"
-            className="lg:h-[407px] lg:w-[547px]"
+            className="lg:h-[407px] lg:w-[547px] mb-9 lg:mb-0"
           />
+          <h1 className="font-giahfita font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal block lg:hidden">
+            Monetize your fanbase with our{' '}
+            <span className="gradientText">AI Chatbot</span>
+          </h1>
           <Image
             src={redelips}
             alt="monetize"
-            className="lg:absolute -top-24 -left-40"
+            className="lg:absolute -top-24 -left-40 hidden lg:block"
           />
           <div className="textcontainer text-left">
-            <p className="lg:mb-14 lg:w-[400px] lg:text-xl">
+            <p className="mb-7 lg:mb-14 lg:w-[400px] text-sm text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
               Monetize your fanbase with our AI chatbot on Telegram designed for
               Instagram influencers. Connect with fans like never before and
               offer premium content, while also selling physical and digital
@@ -36,14 +40,14 @@ const Monetize = () => {
             <div className="flex flex-row gap-x-6 mx-auto justify-center items-center">
               <button
                 type="submit"
-                className="gradientBg  py-2 mt-2  rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center lg:px-6"
+                className="gradientBg py-1 lg:py-2 mt-2  rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center px-3 lg:px-6"
               >
                 <span>Join The Waitlist</span>
                 <Image src={rightarrow} alt="rightarrow" className="mt-2" />
               </button>
               <button
                 type="submit"
-                className=" bg-[rgba(255,255,255,.11)]  py-2 mt-2   rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center lg:px-6"
+                className=" bg-[rgba(255,255,255,.11)] py-1 lg:py-2 mt-2   rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center px-3 lg:px-6"
               >
                 <span>Contact Us</span>
                 <Image src={rightarrow} alt="rightarrow" className="mt-2" />

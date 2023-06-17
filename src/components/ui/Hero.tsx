@@ -4,35 +4,39 @@ import Styles from '../../styles/hero.module.css';
 
 const Hero = () => {
   return (
-    <section className="hero overflow-x-hidden">
-      <div className={`${Styles.herobackground} lg:h-screen`}>
+    <section className="hero">
+      <div className={`${Styles.herobackground} h-screen lg:h-screen`}>
         <div className="herotextcontainer main-container flex flex-col">
           <div className="flex justify-start items-center gap-x-2  lg:pt-6">
-            <Image src={logo} alt="logo" width={52} height={100} />
-            <h2 className=" gradientText text-3xl mt-2 font-adieu font-bold">
+            <Image
+              src={logo}
+              alt="logo"
+              className="w-[30px] lg:w-[52px] h-[59px] lg:h-[100px]"
+            />
+            <h2 className=" gradientText text-[1.2rem] lg:text-3xl mt-2 font-adieu font-light lg:font-bold">
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext lg:mt-24">
-            <h1 className="font-giahfita lg:text-7xl lg:leading-[68px] lg:tracking-normal font-semibold">
+          <div className="mainbannertext mt-80 lg:mt-24">
+            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[40px] lg:leading-[68px] tracking-wide lg:tracking-normal font-semibold">
               Interact <br /> Inspire <br /> Innovate
             </h1>
-            <p className="lg:w-[631px] font-inter font-normal lg:text-xl lg:leading-7 lg:mt-4 lg:mb-10">
+            <p className="lg:w-[631px] font-inter font-normal text-sm lg:text-xl lg:leading-7 mt-6 lg:mt-4 mb-10">
               Introducing an AI chatbot on Telegram, designed specifically for
               Instagram influencers. The chatbot provides a unique platform for
               interacting with fans through{' '}
             </p>
-            <div>
+            <div className="">
               <form className="relative">
                 <input
                   type="email"
-                  className="lg:w-[600px] h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none lg:-ml-3 "
+                  className="w-full lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none -ml-2 lg:-ml-3 "
                   placeholder="e.g. hello@dreamtalk.ai"
                   required
                 />
                 <button
                   type="submit"
-                  className="gradientBg absolute -ml-32 py-2 mt-2  px-3 rounded-full text-white font-semibold lg:text-[1.1rem]"
+                  className="gradientBg absolute -ml-28 lg:-ml-32 py-1.5 lg:py-2 mt-1.5 lg:mt-2 px-3 rounded-full text-white lg:font-semibold lg:text-[1.1rem]"
                 >
                   Join Waitlist
                 </button>

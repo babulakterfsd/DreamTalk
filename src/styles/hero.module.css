@@ -1,6 +1,15 @@
 .herobackground {
-    background: url('../../public/assets/images/herobg.png');
+  background: url('../../public/assets/images/herobg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .herobackground {
+    background: url('../../public/assets/images/header_image_original\ 1.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
 }
