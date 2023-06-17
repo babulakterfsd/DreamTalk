@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Giahfita';
+    src: url('Giahfita.eot');
+    src: local('Giahfita'),
+        url('Giahfita.eot?#iefix') format('embedded-opentype'),
+        url('Giahfita.woff2') format('woff2'),
+        url('Giahfita.woff') format('woff'),
+        url('Giahfita.ttf') format('truetype'),
+        url('Giahfita.svg#Giahfita') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

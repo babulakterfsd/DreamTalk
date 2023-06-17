@@ -3,56 +3,80 @@
 @tailwind utilities;
 
 /* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Poppins&display=swap');
+
+@font-face {
+  font-family: 'adieuregular';
+  src: url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.eot');
+  src: url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.woff2')
+      format('woff2'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.woff')
+      format('woff'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.ttf')
+      format('truetype'),
+    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.svg#adieuregular')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Giahfita';
+  src: url('../../public/assets/fonts/giahfita/Giahfita.eot');
+  src: local('Giahfita'),
+    url('../../public/assets/fonts/giahfita/Giahfita.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/assets/fonts/giahfita/Giahfita.woff2') format('woff2'),
+    url('../../public/assets/fonts/giahfita/Giahfita.woff') format('woff'),
+    url('../../public/assets/fonts/giahfita/Giahfita.ttf') format('truetype'),
+    url('../../public/assets/fonts/giahfita/Giahfita.svg#Giahfita')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-adieu {
+  font-family: 'adieuregular';
+}
+.font-giahfita {
+  font-family: 'Giahfita';
+}
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
 
 html,
 body {
   scroll-behavior: smooth;
 }
 
-.scrollToTop {
-  position: relative;
+/* gradients */
+.gradientText {
+  background: linear-gradient(
+    to right,
+    rgba(243, 130, 26, 1) 1.58%,
+    rgba(239, 120, 113, 1) 45.58%,
+    rgba(214, 53, 99, 1) 98.69%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
-.scrollToTop::after {
-  font-family: 'font-awesome';
-  position: fixed;
-  bottom: 5px;
-  right: 10px;
-  color: #ff9a3d;
-  display: block;
-  content: '\f062';
-  font-size: 30px;
-  z-index: 999;
-  cursor: pointer;
-  animation: toTop 2s linear 2s infinite backwards;
+.gradientBg {
+  background: linear-gradient(
+    to right,
+    rgba(243, 130, 26, 1) 1.58%,
+    rgba(239, 120, 113, 1) 45.58%,
+    rgba(214, 53, 99, 1) 98.69%
+  );
 }
-
-@keyframes toTop {
-  0% {
-    transform: translateY(-10px);
-  }
-  50% {
-    transform: translateY(5px);
-  }
-  75% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-10px);
-  }
-}
-
-/*
-disables the animation on mobile devices
- @media only screen and (max-width: 1023.5px) {
-  [data-aos] {
-    opacity: 1 !important;
-    transform: none !important;
-  }
-} */
 
 /* responsive classes */
 .main-container {
-  @apply w-full mx-auto px-2;
+  @apply w-full mx-auto px-2 ;
 }
 @media (min-width: 576px) {
   .main-container {
