@@ -1,5 +1,6 @@
 'use client';
 
+import Features from '@/components/ui/Features';
 import Hero from '@/components/ui/Hero';
 import Possibilities from '@/components/ui/Possibilities';
 import Aos from 'aos';
@@ -15,6 +16,7 @@ export default function Home() {
     <>
       <Hero />
       <Possibilities />
+      <Features />
     </>
   );
 }
