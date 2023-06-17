@@ -12,7 +12,7 @@ const Features = () => {
         background: 'linear-gradient(to bottom, rgba(4,13,25,1), #000)',
       }}
     >
-      <div className="main-container">
+      <div className="">
         <div className="title text-center">
           <h2 className="font-giahfita lg:text-6xl lg:leading-[67px] lg:tracking-wider font-bold">
             Features
@@ -24,7 +24,7 @@ const Features = () => {
             </p>
           </div>
         </div>
-        <div className="featurecontainer grid grid-cols-1 lg:grid-cols-3 gap-x-12 lg:mb-16">
+        <div className="featurecontainer grid grid-cols-1 lg:grid-cols-3  lg:mb-16 lg:-ml-1 px-12 gap-y-6 lg:px-0">
           <div className="feature1 border border-white flex flex-col gap-y-8 lg:pl-16 py-8">
             <Image src={feature1} alt="feature1" />
             <p className="text-base font-inter lg:w-[75%]">
