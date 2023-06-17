@@ -14,11 +14,11 @@ const Features = () => {
     >
       <div className="main-container">
         <div className="title text-center">
-          <h2 className="font-giahfita lg:text-6xl font-normal lg:leading-[67px] lg:tracking-wider">
+          <h2 className="font-giahfita lg:text-6xl lg:leading-[67px] lg:tracking-wider font-bold">
             Features
           </h2>
           <div className="flex justify-center">
-            <p className="lg:w-[631px] font-inter font-normal lg:text-base lg:leading-7 lg:mt-4 lg:mb-14">
+            <p className="lg:w-[631px] font-inter font-normal lg:text-xl lg:leading-7 lg:mt-4 lg:mb-14">
               Lorem ipsum dolor sit amet constur. Gravida pretium id id lacus
               tellus mauris quis scelerisque. amet{' '}
             </p>

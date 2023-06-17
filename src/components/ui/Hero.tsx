@@ -13,11 +13,11 @@ const Hero = () => {
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext lg:mt-16">
-            <h1 className="font-giahfita font-normal lg:text-7xl lg:leading-[68px] lg:tracking-wider">
+          <div className="mainbannertext lg:mt-24">
+            <h1 className="font-giahfita lg:text-7xl lg:leading-[68px] lg:tracking-normal font-semibold">
               Interact <br /> Inspire <br /> Innovate
             </h1>
-            <p className="lg:w-[631px] font-inter font-normal lg:text-base lg:leading-7 lg:mt-4 lg:mb-10">
+            <p className="lg:w-[631px] font-inter font-normal lg:text-xl lg:leading-7 lg:mt-4 lg:mb-10">
               Introducing an AI chatbot on Telegram, designed specifically for
               Instagram influencers. The chatbot provides a unique platform for
               interacting with fans through{' '}

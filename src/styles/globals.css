@@ -23,19 +23,8 @@
 }
 
 @font-face {
-  font-family: 'Giahfita';
-  src: url('../../public/assets/fonts/giahfita/Giahfita.eot');
-  src: local('Giahfita'),
-    url('../../public/assets/fonts/giahfita/Giahfita.eot?#iefix')
-      format('embedded-opentype'),
-    url('../../public/assets/fonts/giahfita/Giahfita.woff2') format('woff2'),
-    url('../../public/assets/fonts/giahfita/Giahfita.woff') format('woff'),
-    url('../../public/assets/fonts/giahfita/Giahfita.ttf') format('truetype'),
-    url('../../public/assets/fonts/giahfita/Giahfita.svg#Giahfita')
-      format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+  font-family: Giahfita sans-serif;
+  src: url("../../public/assets/fonts/giahfita/Giahfita.otf");
 }
 
 .font-adieu {
