@@ -1,0 +1,6 @@
+.newsletterbg {
+    background: linear-gradient(rgba(31, 19, 92, 0.4), rgba(26, 14, 88, 0.1)), url('../../public/assets/images/newsletterbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
