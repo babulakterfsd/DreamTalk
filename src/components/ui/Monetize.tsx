@@ -5,7 +5,7 @@ import monetize from '../../../public/assets/images/video.png';
 
 const Monetize = () => {
   return (
-    <div className="lg:py-36">
+    <div className="lg:py-36 ">
       <div className="main-container text-center">
         <div className="title lg:mb-10">
           <h1 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal">

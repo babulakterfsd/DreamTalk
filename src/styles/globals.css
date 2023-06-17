@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: Giahfita sans-serif;
-  src: url("../../public/assets/fonts/giahfita/Giahfita.otf");
+  src: url('../../public/assets/fonts/giahfita/Giahfita.otf');
 }
 
 .font-adieu {
@@ -65,7 +65,7 @@ body {
 
 /* responsive classes */
 .main-container {
-  @apply w-full mx-auto px-2 ;
+  @apply w-full mx-auto px-2;
 }
 @media (min-width: 576px) {
   .main-container {

@@ -4,7 +4,7 @@ import Styles from '../../styles/hero.module.css';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero overflow-x-hidden">
       <div className={`${Styles.herobackground} lg:h-screen`}>
         <div className="herotextcontainer main-container flex flex-col">
           <div className="flex justify-start items-center gap-x-2  lg:pt-6">

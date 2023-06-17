@@ -5,7 +5,7 @@ import github from '../../../public/assets/images/u_github.png';
 
 const Footer = () => {
   return (
-    <div className="lg:pt-32 lg:pb-16">
+    <div className="lg:pt-32 lg:pb-16 overflow-x-hidden">
       <div className="main-container">
         <div className="footercontainer flex">
           <div className="leftpart lg:mr-auto">
@@ -17,17 +17,17 @@ const Footer = () => {
               <Image
                 src={fb}
                 alt="fb"
-                className="border border-white p-3 rounded-full h-12 w-12"
+                className="border border-[rgba(236,112,112,1)] cursor-pointer p-3 rounded-full h-12 w-12"
               />
               <Image
                 src={tumbler}
                 alt="fb"
-                className="border border-white p-3 rounded-full h-12 w-12"
+                className="border border-[rgba(236,112,112,1)] cursor-pointer p-3 rounded-full h-12 w-12"
               />
               <Image
                 src={github}
                 alt="fb"
-                className="border border-white p-3 rounded-full h-12 w-12"
+                className="border border-[rgba(236,112,112,1)] cursor-pointer p-3 rounded-full h-12 w-12"
               />
             </div>
           </div>

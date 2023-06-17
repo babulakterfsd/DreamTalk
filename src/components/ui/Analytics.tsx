@@ -2,7 +2,7 @@ import Image from 'next/image';
 import analytics from '../../../public/assets/images/dashboard.png';
 const Analytics = () => {
   return (
-    <div className="lg:py-36">
+    <div className="lg:py-36 overflow-x-hidden">
       <div className="main-container">
         <div className="title flex justify-center gap-x-6">
           <h2 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal">

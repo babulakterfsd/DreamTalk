@@ -7,7 +7,7 @@ import feature3 from '../../../public/assets/images/feature3.png';
 const Features = () => {
   return (
     <div
-      className="lg:py-36"
+      className="lg:py-36 overflow-x-hidden"
       style={{
         background: 'linear-gradient(to bottom, rgba(4,13,25,1), #000)',
       }}

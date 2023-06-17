@@ -4,7 +4,9 @@ import Styles from '../../styles/newsletter.module.css';
 
 const Newsletter = () => {
   return (
-    <div className={`${Styles.newsletterbg} lg:py-36 lg:relative`}>
+    <div
+      className={`${Styles.newsletterbg} lg:py-36 lg:relative overflow-x-hidden`}
+    >
       <Image src={bekaImage} alt="beka" className="lg:absolute top-0 right-0" />
       <div className="main-container flex justify-center items-center flex-col gap-y-10">
         <h2 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal">
