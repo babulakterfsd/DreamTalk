@@ -1,4 +1,5 @@
 import 'aos/dist/aos.css';
+import Script from 'next/script';
 import '../styles/globals.css';
 
 export const metadata = {
@@ -7,7 +8,7 @@ export const metadata = {
     'DreamTalk helps you maximize fan interactions and extend your reach using AI',
 };
 
-// const ga_id = '#########';
+const ga_id = 'G-1J06P5QZ1G';
 
 export default function RootLayout({
   children,
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-black text-white">
-        {/* <Script
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?
       id=${ga_id}`}
@@ -33,7 +34,7 @@ export default function RootLayout({
           gtag('config', '${ga_id}');
         `,
           }}
-        ></Script> */}
+        ></Script>
         {children}
       </body>
     </html>
