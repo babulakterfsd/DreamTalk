@@ -1,8 +1,74 @@
+'use client';
+import axios from 'axios';
+import { useState } from 'react';
+
 import Image from 'next/image';
 import logo from '../../../public/assets/images/logo.png';
 import Styles from '../../styles/hero.module.css';
 
 const Hero = () => {
+  const [email, setEmail] = useState('');
+  const [showResult, setShowResult] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
+  const [successMessage, setSuccessMessage] = useState('');
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    const validateEmail = (mail: string) => {
+      return String(mail)
+        .toLowerCase()
+        .match(
+          /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        );
+    };
+
+    const isValidEmail = validateEmail(email);
+
+    if (!isValidEmail) {
+      setShowResult(true);
+      setErrorMessage('Invalid email address');
+      setTimeout(() => {
+        setShowResult(false);
+        setErrorMessage('');
+      }, 3000);
+      return;
+    } else {
+      axios
+        .post('/api/waitlist', {
+          email: email,
+        })
+        .then((res) => {
+          if (res?.data?.statusCode === 200) {
+            setEmail('');
+            setShowResult(true);
+            setSuccessMessage(res.data.message);
+            setTimeout(() => {
+              setShowResult(false);
+              setSuccessMessage('');
+              setErrorMessage('');
+            }, 9000);
+          } else if (res?.data?.statusCode === 400) {
+            setShowResult(true);
+            setErrorMessage(res.data.message);
+            setTimeout(() => {
+              setShowResult(false);
+              setErrorMessage('');
+              setSuccessMessage('');
+            }, 3000);
+          }
+        })
+        .catch((err) => {
+          setShowResult(true);
+          setErrorMessage(err);
+          setTimeout(() => {
+            setShowResult(false);
+            setErrorMessage('');
+          }, 3000);
+        });
+    }
+  };
+
   return (
     <section className="hero">
       <div className={`${Styles.herobackground} h-screen lg:h-screen`}>
@@ -21,8 +87,8 @@ const Hero = () => {
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext mt-[42vh] sm:mt-36 lg:mt-32">
-            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] xl:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
+          <div className="mainbannertext mt-[38vh] sm:mt-36 lg:mt-28">
+            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] lg:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
               <div data-aos="fade-down" data-aos-duration="1000">
                 Interact
               </div>{' '}
@@ -50,12 +116,14 @@ const Hero = () => {
               data-aos-duration="2500"
               data-aos-offset="1"
             >
-              <form className="relative">
+              <form className="relative" onSubmit={handleSubmit}>
                 <input
                   type="email"
                   className={`${Styles.heroinput} w-[86vw] sm:w-[60vw] lg:w-[600px] h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3`}
                   placeholder="e.g. hello@dreamtalk.ai"
                   required
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
                 <button
                   type="submit"
@@ -64,6 +132,58 @@ const Hero = () => {
                   Join Waitlist
                 </button>
               </form>
+              {showResult ? (
+                <div className="flex justify-center lg:justify-start items-center">
+                  <div className="bg-[#0a071d] rounded-full px-3 cursor-auto mx-auto my-4 py-1 absolute mt-20 lg:mt-16 z-50">
+                    {successMessage ? (
+                      <div className="flex gap-x-1 items-center justify-center">
+                        <svg
+                          className="h-5 w-5 text-green-500"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" />{' '}
+                          <circle cx="12" cy="12" r="9" />{' '}
+                          <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <span className="text-green-600 font-semibold text-md text-center">
+                          {' '}
+                          {successMessage}
+                        </span>
+                      </div>
+                    ) : (
+                      <div className="flex gap-x-1 items-center justify-center">
+                        <svg
+                          className="h-5 w-5 text-red-500"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          strokeWidth="2"
+                          stroke="currentColor"
+                          fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        >
+                          {' '}
+                          <path stroke="none" d="M0 0h24v24H0z" />{' '}
+                          <circle cx="12" cy="12" r="9" />{' '}
+                          <path d="M10 10l4 4m0 -4l-4 4" />
+                        </svg>
+                        <span className="text-red-600 font-semibold text-md text-center">
+                          {' '}
+                          {errorMessage}
+                        </span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ) : null}
             </div>
           </div>
         </div>
