@@ -41,7 +41,7 @@ const Monetize = () => {
             className="lg:absolute -top-24 -left-40 hidden lg:block"
           />
           <div className="textcontainer text-left">
-            <p className="mb-7 lg:mb-14 lg:w-[400px] text-sm text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
+            <p className="mb-7 lg:mb-14 lg:w-[400px] font-semibold lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
               Monetize your fanbase with our AI chatbot on Telegram designed for
               Instagram influencers. Connect with fans like never before and
               offer premium content, while also selling physical and digital
