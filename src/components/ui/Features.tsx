@@ -65,7 +65,7 @@ const Features = () => {
           </div>
         </div>
         <div
-          className="flex justify-center mt-8 lg:mt-0 "
+          className="flex justify-center mt-8 lg:mt-0 lg:ml-28"
           data-aos="fade-down"
           data-aos-duration="1000"
         >

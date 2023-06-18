@@ -59,13 +59,6 @@ const Monetize = () => {
                 <span>Join The Waitlist</span>
                 <Image src={rightarrow} alt="rightarrow" className="mt-2" />
               </button>
-              <button
-                type="submit"
-                className=" bg-[rgba(255,255,255,.11)] py-1 lg:py-2 mt-2   rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center px-3 lg:px-6"
-              >
-                <span>Contact Us</span>
-                <Image src={rightarrow} alt="rightarrow" className="mt-2" />
-              </button>
             </div>
           </div>
         </div>
