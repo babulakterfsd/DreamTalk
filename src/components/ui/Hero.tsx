@@ -17,7 +17,7 @@ const Hero = () => {
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext mt-[50vh] lg:mt-24">
+          <div className="mainbannertext mt-[40vh] lg:mt-24">
             <h1 className="font-giahfita text-4xl lg:text-7xl leading-[40px] lg:leading-[68px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
               Interact <br /> Inspire <br /> Innovate
             </h1>
