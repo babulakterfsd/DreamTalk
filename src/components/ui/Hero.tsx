@@ -53,13 +53,13 @@ const Hero = () => {
               <form className="relative">
                 <input
                   type="email"
-                  className={`${Styles.heroinput} w-[86vw] sm:w-[60vw] lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3`}
+                  className={`${Styles.heroinput} w-[86vw] sm:w-[60vw] lg:w-[600px] h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3`}
                   placeholder="e.g. hello@dreamtalk.ai"
                   required
                 />
                 <button
                   type="submit"
-                  className="gradientBg absolute -ml-28 lg:-ml-32 py-1.5 lg:py-2 mt-1.5 lg:mt-2 px-3 rounded-full text-white lg:font-semibold lg:text-[1.1rem]"
+                  className="gradientBg absolute -ml-28 lg:-ml-32 py-2 mt-2 px-3 rounded-full text-white lg:font-semibold lg:text-[1.1rem]"
                 >
                   Join Waitlist
                 </button>
