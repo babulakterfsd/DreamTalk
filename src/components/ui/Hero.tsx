@@ -36,7 +36,7 @@ const Hero = () => {
               </div>
             </h1>
             <p
-              className="lg:w-[631px] font-inter font-semibold lg:font-normal text-sm lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
+              className="lg:w-[631px] font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
               data-aos="fade-down"
               data-aos-duration="2500"
             >
