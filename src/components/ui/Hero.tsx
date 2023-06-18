@@ -7,7 +7,11 @@ const Hero = () => {
     <section className="hero">
       <div className={`${Styles.herobackground} h-screen lg:h-screen`}>
         <div className="herotextcontainer main-container flex flex-col ">
-          <div className="flex justify-start items-center gap-x-2  lg:pt-6">
+          <div
+            className="flex justify-start items-center gap-x-2  lg:pt-1"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <Image
               src={logo}
               alt="logo"
@@ -17,16 +21,30 @@ const Hero = () => {
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext mt-[40vh] lg:mt-24">
-            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[40px] lg:leading-[68px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
-              Interact <br /> Inspire <br /> Innovate
+          <div className="mainbannertext mt-[40vh] sm:mt-36 lg:mt-24">
+            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] xl:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
+              <div data-aos="fade-down" data-aos-duration="1000">
+                Interact
+              </div>{' '}
+              <br />{' '}
+              <div data-aos="fade-down" data-aos-duration="1500">
+                Inspire{' '}
+              </div>{' '}
+              <br />{' '}
+              <div data-aos="fade-down" data-aos-duration="2500">
+                Innovate
+              </div>
             </h1>
-            <p className="lg:w-[631px] font-inter lg:font-normal text-sm lg:text-xl lg:leading-7 mt-3 lg:mt-4 mb-5 lg:mb-10">
+            <p
+              className="lg:w-[631px] font-inter lg:font-normal text-sm lg:text-xl lg:leading-7 mt-3 lg:mt-5 mb-3 lg:mb-7"
+              data-aos="fade-down"
+              data-aos-duration="2500"
+            >
               Introducing an AI chatbot on Telegram, designed specifically for
               Instagram influencers. The chatbot provides a unique platform for
               interacting with fans through{' '}
             </p>
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="2500">
               <form className="relative">
                 <input
                   type="email"
