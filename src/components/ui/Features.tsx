@@ -65,14 +65,14 @@ const Features = () => {
           </div>
         </div>
         <div
-          className="flex justify-center mt-8 lg:mt-0 lg:ml-28"
+          className="flex justify-center mt-8 lg:mt-0 "
           data-aos="fade-down"
-          data-aos-duration="2500"
+          data-aos-duration="2000"
         >
-          <a href="https://features.dreamtalk.ai" target="_blank">
+          <a href="https://features.dreamtalk.ai" target="_blank" className="">
             <button
               type="submit"
-              className="gradientBg absolute lg:-ml-32 py-1 lg:py-2 lg:mt-2 px-2 lg:px-6 rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center"
+              className="gradientBg lg:-ml-32 py-1 lg:py-2 lg:mt-2 px-2 lg:px-6 rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center"
             >
               <span>See All Features</span>
               <Image src={rightarrow} alt="rightarrow" className="mt-2" />

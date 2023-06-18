@@ -19,17 +19,19 @@ const Monetize = () => {
             AI Chatbot
           </h1>
         </div>
-        <div
-          className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative"
-          data-aos="fade-down"
-          data-aos-duration="2000"
-        >
+        <div className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative">
           <Image
             src={monetize}
             alt="monetize"
             className="lg:h-[407px] lg:w-[547px] mb-9 lg:mb-0"
+            data-aos="fade-down"
+            data-aos-duration="2000"
           />
-          <h1 className="font-giahfita font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal block lg:hidden">
+          <h1
+            className="font-giahfita font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal block lg:hidden"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
             Monetize your fanbase with our{' '}
             <span className="gradientText">AI Chatbot</span>
           </h1>
@@ -38,7 +40,11 @@ const Monetize = () => {
             alt="monetize"
             className="lg:absolute -top-24 -left-40 hidden lg:block"
           />
-          <div className="textcontainer text-left">
+          <div
+            className="textcontainer text-left"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
             <p className="mb-7 lg:mb-14 lg:w-[400px] font-semibold lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
               Monetize your fanbase with our AI chatbot on Telegram designed for
               Instagram influencers. Connect with fans like never before and

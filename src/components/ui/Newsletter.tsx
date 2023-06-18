@@ -11,10 +11,18 @@ const Newsletter = () => {
         className="absolute top-0 right-0 h-[200px] w-[150px] lg:h-[385px] lg:w-[310px] -z-50 xl:z-0"
       />
       <div className="main-container flex justify-center items-center flex-col gap-y-4 lg:gap-y-10 z-50 xl:z-0">
-        <h2 className="font-giahfita font-bold text-2xl leading-[27px] lg:text-6xl lg:leading-[74px] lg:tracking-normal">
+        <h2
+          className="font-giahfita font-bold text-2xl leading-[27px] lg:text-6xl lg:leading-[74px] lg:tracking-normal"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+        >
           Subscribe to Newsletter
         </h2>
-        <div className="mx-auto lg:mx-0">
+        <div
+          className="mx-auto lg:mx-0"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
           <form className="relative">
             <input
               type="email"
