@@ -21,7 +21,7 @@ const Hero = () => {
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext mt-[40vh] sm:mt-36 lg:mt-24">
+          <div className="mainbannertext mt-[44vh] sm:mt-36 lg:mt-24">
             <h1 className="font-giahfita text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] xl:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
               <div data-aos="fade-down" data-aos-duration="1000">
                 Interact
