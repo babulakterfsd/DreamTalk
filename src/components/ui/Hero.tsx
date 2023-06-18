@@ -30,7 +30,7 @@ const Hero = () => {
               <form className="relative">
                 <input
                   type="email"
-                  className="w-[85vw] lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none ml-1 lg:-ml-3"
+                  className="w-[86vw] lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3"
                   placeholder="e.g. hello@dreamtalk.ai"
                   required
                 />
