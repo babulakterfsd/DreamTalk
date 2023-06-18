@@ -1,5 +1,6 @@
 'use client';
 import axios from 'axios';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 
 import Image from 'next/image';
@@ -11,6 +12,7 @@ const Hero = () => {
   const [showResult, setShowResult] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
+  const router = useRouter();
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -70,13 +72,14 @@ const Hero = () => {
   };
 
   return (
-    <section className="hero">
+    <section id="herosection" className="hero">
       <div className={`${Styles.herobackground} h-screen lg:h-screen`}>
         <div className="herotextcontainer main-container flex flex-col ">
           <div
-            className="flex justify-start items-center gap-x-2  lg:pt-1"
+            className="flex justify-start items-center gap-x-2  lg:pt-1 cursor-pointer"
             data-aos="fade-down"
             data-aos-duration="500"
+            onClick={() => router.push('/')}
           >
             <Image
               src={logo}
