@@ -16,8 +16,7 @@ const Features = () => {
         <div
           className="title text-center"
           data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-offset="1"
+          data-aos-duration="1500"
         >
           <h2 className="font-giahfita text-2xl lg:text-6xl lg:leading-[67px] lg:tracking-wider font-bold">
             Features
@@ -32,8 +31,7 @@ const Features = () => {
         <div
           className="featurecontainer grid grid-cols-1 lg:grid-cols-3  lg:mb-16 ml-6 lg:-ml-1 px-6 gap-y-5 lg:px-0 sm:flex justify-center items-center flex-col lg:flex-row"
           data-aos="fade-down"
-          data-aos-duration="1500"
-          data-aos-offset="1"
+          data-aos-duration="2000"
         >
           <div className="feature1 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8">
             <Image
@@ -69,16 +67,17 @@ const Features = () => {
         <div
           className="flex justify-center mt-8 lg:mt-0 lg:ml-28"
           data-aos="fade-down"
-          data-aos-duration="1500"
-          data-aos-offset="1"
+          data-aos-duration="2500"
         >
-          <button
-            type="submit"
-            className="gradientBg absolute lg:-ml-32 py-1 lg:py-2 lg:mt-2 px-2 lg:px-6 rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center"
-          >
-            <span>See All Features</span>
-            <Image src={rightarrow} alt="rightarrow" className="mt-2" />
-          </button>
+          <a href="https://features.dreamtalk.ai" target="_blank">
+            <button
+              type="submit"
+              className="gradientBg absolute lg:-ml-32 py-1 lg:py-2 lg:mt-2 px-2 lg:px-6 rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center"
+            >
+              <span>See All Features</span>
+              <Image src={rightarrow} alt="rightarrow" className="mt-2" />
+            </button>
+          </a>
         </div>
       </div>
     </div>

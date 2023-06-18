@@ -10,8 +10,7 @@ const Monetize = () => {
         <div
           className="title lg:mb-10"
           data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-offset="1"
+          data-aos-duration="1500"
         >
           <h1 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
             Monetize Your <br /> Fanbase with Our{' '}
@@ -23,8 +22,7 @@ const Monetize = () => {
         <div
           className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative"
           data-aos="fade-down"
-          data-aos-duration="1500"
-          data-aos-offset="1"
+          data-aos-duration="2000"
         >
           <Image
             src={monetize}

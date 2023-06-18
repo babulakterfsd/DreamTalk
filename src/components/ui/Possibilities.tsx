@@ -9,7 +9,6 @@ const Possibilities = () => {
           className="lg:flex justify-start items-center"
           data-aos="fade-down"
           data-aos-duration="1500"
-          data-aos-offset="1"
         >
           <h1 className="font-giahfita text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] lg:ml-24 font-bold lg:font-semibold text-center lg:text-left  px-8 lg:px-0">
             The possibilities <br className="hidden lg:block" /> are
@@ -30,7 +29,6 @@ const Possibilities = () => {
           className="flex justify-start md:justify-center lg:justify-start lg:ml-60 lg:mt-3"
           data-aos="fade-down"
           data-aos-duration="2000"
-          data-aos-offset="1"
         >
           <p className="font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-3 text-center lg:text-left lg:mt-4 lg:w-[483px]">
             Lorem ipsum dolor sit amet consectetur. Gravida a pretium id id
