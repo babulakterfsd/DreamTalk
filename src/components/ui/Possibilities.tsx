@@ -5,7 +5,12 @@ const Possibilities = () => {
   return (
     <section className="bg-[#040d19] pt-20 pb-16 lg:py-28 xl:py-20">
       <div className="main-container">
-        <div className="lg:flex justify-start items-center">
+        <div
+          className="lg:flex justify-start items-center"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-offset="1"
+        >
           <h1 className="font-giahfita text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] lg:ml-24 font-bold lg:font-semibold text-center lg:text-left  px-8 lg:px-0">
             The possibilities <br className="hidden lg:block" /> are
             <br className="block lg:hidden" /> beyond
@@ -21,8 +26,13 @@ const Possibilities = () => {
             your <br /> <span className="lg:-ml-40">imagination</span>
           </h1>
         </div>
-        <div className="flex justify-start md:justify-center lg:justify-start lg:ml-60 lg:mt-3">
-          <p className="font-inter font-normal text-sm lg:text-xl lg:leading-7 mt-3 text-center lg:text-left lg:mt-4 lg:w-[483px]">
+        <div
+          className="flex justify-start md:justify-center lg:justify-start lg:ml-60 lg:mt-3"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+          data-aos-offset="1"
+        >
+          <p className="font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-3 text-center lg:text-left lg:mt-4 lg:w-[483px]">
             Lorem ipsum dolor sit amet consectetur. Gravida a pretium id id
             lacus tellus mauris quis scelsque. amet consectetur mauris quis
             sceleri.

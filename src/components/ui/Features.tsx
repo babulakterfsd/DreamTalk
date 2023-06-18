@@ -14,24 +14,39 @@ const Features = () => {
     >
       <div className="">
         <div className="title text-center">
-          <h2 className="font-giahfita text-2xl lg:text-6xl lg:leading-[67px] lg:tracking-wider font-bold">
+          <h2
+            className="font-giahfita text-2xl lg:text-6xl lg:leading-[67px] lg:tracking-wider font-bold"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-offset="1"
+          >
             Features
           </h2>
-          <div className="flex justify-center">
-            <p className="lg:w-[631px] font-inter font-normal text-sm lg:text-xl lg:leading-7 mt-1 lg:mt-4 mb-10 lg:mb-14 px-8 lg:px-0">
+          <div
+            className="flex justify-center"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+            data-aos-offset="1"
+          >
+            <p className="lg:w-[631px] font-inter font-semibold lg:font-normal  lg:text-xl lg:leading-7 mt-1 lg:mt-4 mb-10 lg:mb-14 px-8 lg:px-0">
               Lorem ipsum dolor sit amet constur. Gravida pretium id id lacus
               tellus mauris quis scelerisque. amet{' '}
             </p>
           </div>
         </div>
-        <div className="featurecontainer grid grid-cols-1 lg:grid-cols-3  lg:mb-16 ml-6 lg:-ml-1 px-6 gap-y-5 lg:px-0 sm:flex justify-center items-center flex-col lg:flex-row">
+        <div
+          className="featurecontainer grid grid-cols-1 lg:grid-cols-3  lg:mb-16 ml-6 lg:-ml-1 px-6 gap-y-5 lg:px-0 sm:flex justify-center items-center flex-col lg:flex-row"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+          data-aos-offset="1"
+        >
           <div className="feature1 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8">
             <Image
               src={feature1}
               alt="feature1"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className="text-sm lg:text-base font-inter lg:w-[75%]">
+            <p className=" lg:text-base font-inter lg:w-[75%]">
               Personalized experience tailored to each user's preferences
             </p>
           </div>
@@ -41,7 +56,7 @@ const Features = () => {
               alt="feature2"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className="text-sm lg:text-base font-inter lg:w-[75%]">
+            <p className=" lg:text-base font-inter lg:w-[75%]">
               Sell physical and digital content directly through built-in store
             </p>
           </div>
@@ -51,12 +66,17 @@ const Features = () => {
               alt="feature3"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className="text-sm lg:text-base font-inter lg:w-[75%]">
+            <p className=" lg:text-base font-inter lg:w-[75%]">
               Integration with Instagram for seamless fan interaction
             </p>
           </div>
         </div>
-        <div className="flex justify-center mt-8 lg:mt-0 lg:ml-28">
+        <div
+          className="flex justify-center mt-8 lg:mt-0 lg:ml-28"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+          data-aos-offset="1"
+        >
           <button
             type="submit"
             className="gradientBg absolute lg:-ml-32 py-1 lg:py-2 lg:mt-2 px-2 lg:px-6 rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center"
