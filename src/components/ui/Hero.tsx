@@ -21,7 +21,7 @@ const Hero = () => {
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext mt-[40vh] sm:mt-36 lg:mt-24">
+          <div className="mainbannertext mt-[42vh] sm:mt-36 lg:mt-32">
             <h1 className="font-giahfita text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] xl:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
               <div data-aos="fade-down" data-aos-duration="1000">
                 Interact
@@ -36,7 +36,7 @@ const Hero = () => {
               </div>
             </h1>
             <p
-              className="lg:w-[631px] font-inter lg:font-normal text-sm lg:text-xl lg:leading-7 mt-3 lg:mt-5 mb-3 lg:mb-7"
+              className="lg:w-[631px] font-inter font-[500] lg:font-normal text-sm lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
               data-aos="fade-down"
               data-aos-duration="2500"
             >
