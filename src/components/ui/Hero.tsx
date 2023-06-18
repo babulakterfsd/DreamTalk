@@ -44,7 +44,12 @@ const Hero = () => {
               Instagram influencers. The chatbot provides a unique platform for
               interacting with fans through{' '}
             </p>
-            <div className="" data-aos="fade-up" data-aos-duration="2500">
+            <div
+              className=""
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              data-aos-offset="5"
+            >
               <form className="relative">
                 <input
                   type="email"
