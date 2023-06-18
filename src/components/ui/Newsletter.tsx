@@ -88,6 +88,7 @@ const Newsletter = () => {
           className="mx-auto lg:mx-0"
           data-aos="fade-down"
           data-aos-duration="2000"
+          data-aos-offset="1"
         >
           <form className="relative" onSubmit={handleSubmit}>
             <input
