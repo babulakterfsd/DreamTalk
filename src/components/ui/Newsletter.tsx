@@ -35,7 +35,7 @@ const Newsletter = () => {
       return;
     } else {
       axios
-        .post('/api/waitlist', {
+        .post('/api/newsletter', {
           email: email,
         })
         .then((res) => {
