@@ -134,7 +134,7 @@ const Hero = () => {
               </form>
               {showResult ? (
                 <div className="flex justify-center lg:justify-start items-center">
-                  <div className="bg-[#0a071d] rounded-full px-3 cursor-auto mx-auto my-4 py-1 absolute mt-20 lg:mt-16 z-50">
+                  <div className="bg-[#0a071d] rounded-full px-3 cursor-auto mx-auto my-4 py-1 absolute mt-28 lg:mt-16 z-50">
                     {successMessage ? (
                       <div className="flex gap-x-1 items-center justify-center">
                         <svg
