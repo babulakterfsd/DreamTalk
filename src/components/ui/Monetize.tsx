@@ -7,7 +7,12 @@ const Monetize = () => {
   return (
     <div className="py-20 lg:py-36">
       <div className="main-container text-center">
-        <div className="title lg:mb-10">
+        <div
+          className="title lg:mb-10"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-offset="1"
+        >
           <h1 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
             Monetize Your <br /> Fanbase with Our{' '}
           </h1>
@@ -15,7 +20,12 @@ const Monetize = () => {
             AI Chatbot
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative">
+        <div
+          className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative"
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          data-aos-offset="1"
+        >
           <Image
             src={monetize}
             alt="monetize"
