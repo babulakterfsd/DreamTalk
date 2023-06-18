@@ -24,7 +24,7 @@ const Features = () => {
           <div className="flex justify-center">
             <p className="lg:w-[631px] font-inter font-semibold lg:font-normal  lg:text-xl lg:leading-7 mt-1 lg:mt-4 mb-10 lg:mb-14 px-8 lg:px-0">
               Lorem ipsum dolor sit amet constur. Gravida pretium id id lacus
-              tellus mauris quis scelerisque. amet{' '}
+              tellus mauris quis scelerisque{' '}
             </p>
           </div>
         </div>
