@@ -24,7 +24,7 @@ const Features = () => {
             </p>
           </div>
         </div>
-        <div className="featurecontainer grid grid-cols-1 lg:grid-cols-3  lg:mb-16 ml-6 lg:-ml-1 px-6 gap-y-5 lg:px-0">
+        <div className="featurecontainer grid grid-cols-1 lg:grid-cols-3  lg:mb-16 ml-6 lg:-ml-1 px-6 gap-y-5 lg:px-0 sm:flex justify-center items-center flex-col lg:flex-row">
           <div className="feature1 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8">
             <Image
               src={feature1}
@@ -45,7 +45,7 @@ const Features = () => {
               Sell physical and digital content directly through built-in store
             </p>
           </div>
-          <div className="feature3 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8">
+          <div className="feature3 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8 sm:-ml-10 lg:ml-0">
             <Image
               src={feature3}
               alt="feature3"

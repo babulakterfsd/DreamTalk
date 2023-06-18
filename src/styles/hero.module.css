@@ -13,3 +13,9 @@
     background-position: center;
   }
 }
+
+@media screen and (min-width: 574px) and (max-width: 639px) {
+  .heroinput {
+    width: 60vw !important;
+  }
+}

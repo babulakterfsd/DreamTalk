@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className={`${Styles.herobackground} h-screen lg:h-screen`}>
-        <div className="herotextcontainer main-container flex flex-col">
+        <div className="herotextcontainer main-container flex flex-col ">
           <div className="flex justify-start items-center gap-x-2  lg:pt-6">
             <Image
               src={logo}
@@ -30,7 +30,7 @@ const Hero = () => {
               <form className="relative">
                 <input
                   type="email"
-                  className="w-[86vw] lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3"
+                  className={`${Styles.heroinput} w-[86vw] sm:w-[60vw] lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3`}
                   placeholder="e.g. hello@dreamtalk.ai"
                   required
                 />

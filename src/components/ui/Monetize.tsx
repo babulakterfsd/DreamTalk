@@ -15,7 +15,7 @@ const Monetize = () => {
             AI Chatbot
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row justify-start gap-x-20 items-center lg:relative">
+        <div className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative">
           <Image
             src={monetize}
             alt="monetize"

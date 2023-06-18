@@ -8,9 +8,9 @@ const Newsletter = () => {
       <Image
         src={bekaImage}
         alt="beka"
-        className="absolute top-0 right-0 h-[200px] w-[150px] lg:h-[385px] lg:w-[310px] -z-50 lg:z-0"
+        className="absolute top-0 right-0 h-[200px] w-[150px] lg:h-[385px] lg:w-[310px] -z-50 xl:z-0"
       />
-      <div className="main-container flex justify-center items-center flex-col gap-y-4 lg:gap-y-10 z-50 lg:z-0">
+      <div className="main-container flex justify-center items-center flex-col gap-y-4 lg:gap-y-10 z-50 xl:z-0">
         <h2 className="font-giahfita font-bold text-2xl leading-[27px] lg:text-6xl lg:leading-[74px] lg:tracking-normal">
           Subscribe to Newsletter
         </h2>
@@ -18,7 +18,7 @@ const Newsletter = () => {
           <form className="relative">
             <input
               type="email"
-              className="w-[90vw] lg:w-[600px] h-12 lg:h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none lg:-ml-3 bg-opacity-60"
+              className="w-[88vw] sm:w-[60vw] lg:w-[600px] h-12 lg:h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none lg:-ml-3 bg-opacity-60"
               placeholder="e.g. hello@dreamtalk.ai"
               required
             />
