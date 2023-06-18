@@ -10,7 +10,7 @@ const Monetize = () => {
         <div
           className="title lg:mb-10"
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           <h1 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
             Monetize Your <br /> Fanbase with Our{' '}
@@ -25,12 +25,12 @@ const Monetize = () => {
             alt="monetize"
             className="lg:h-[407px] lg:w-[547px] mb-9 lg:mb-0"
             data-aos="fade-down"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           />
           <h1
             className="font-giahfita font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal block lg:hidden"
             data-aos="fade-down"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             Monetize your fanbase with our{' '}
             <span className="gradientText">AI Chatbot</span>
@@ -43,7 +43,7 @@ const Monetize = () => {
           <div
             className="textcontainer text-left"
             data-aos="fade-down"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             <p className="mb-7 lg:mb-14 lg:w-[400px] font-semibold lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
               Monetize your fanbase with our AI chatbot on Telegram designed for

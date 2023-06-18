@@ -9,7 +9,7 @@ const Analytics = () => {
           <h2
             className="font-giahfita font-bold text-2xl lg:text-6xl lg:leading-[74px] lg:tracking-normal"
             data-aos="fade-down"
-            data-aos-duration="1500"
+            data-aos-duration="500"
           >
             Unparalleled Insights <br />
             <span className="gradientText">Live Analytics</span>
@@ -17,7 +17,7 @@ const Analytics = () => {
           <p
             className="font-inter font-normal text-sm lg:text-xl lg:leading-7 lg:w-[483px] mt-4 lg:mt-28 lg:-ml-14 mb-7 lg:mb-16"
             data-aos="fade-down"
-            data-aos-duration="1500"
+            data-aos-duration="1000"
           >
             Revolutionize your Instagram influence with Unparalleled Insights &
             Live Analytics. Harness our AI chatbot on Telegram to foster deeper
@@ -28,7 +28,7 @@ const Analytics = () => {
         <div
           className="flex justify-center items-center"
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <Image src={analytics} alt="analytics" />
         </div>

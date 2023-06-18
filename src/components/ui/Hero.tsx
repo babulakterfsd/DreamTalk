@@ -76,7 +76,7 @@ const Hero = () => {
           <div
             className="flex justify-start items-center gap-x-2  lg:pt-1"
             data-aos="fade-down"
-            data-aos-duration="1000"
+            data-aos-duration="500"
           >
             <Image
               src={logo}
@@ -89,22 +89,22 @@ const Hero = () => {
           </div>
           <div className="mainbannertext mt-[38vh] sm:mt-36 lg:mt-28">
             <h1 className="font-giahfita text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] lg:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
-              <div data-aos="fade-down" data-aos-duration="1000">
+              <div data-aos="fade-down" data-aos-duration="500">
                 Interact
               </div>{' '}
               <br />{' '}
-              <div data-aos="fade-down" data-aos-duration="1500">
+              <div data-aos="fade-down" data-aos-duration="1000">
                 Inspire{' '}
               </div>{' '}
               <br />{' '}
-              <div data-aos="fade-down" data-aos-duration="2500">
+              <div data-aos="fade-down" data-aos-duration="2000">
                 Innovate
               </div>
             </h1>
             <p
               className="lg:w-[631px] font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
               data-aos="fade-down"
-              data-aos-duration="2500"
+              data-aos-duration="500"
             >
               Introducing an AI chatbot on Telegram, designed specifically for
               Instagram influencers. The chatbot provides a unique platform for
@@ -113,7 +113,7 @@ const Hero = () => {
             <div
               className=""
               data-aos="fade-up"
-              data-aos-duration="2500"
+              data-aos-duration="500"
               data-aos-offset="1"
             >
               <form className="relative" onSubmit={handleSubmit}>

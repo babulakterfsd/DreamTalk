@@ -80,14 +80,14 @@ const Newsletter = () => {
         <h2
           className="font-giahfita font-bold text-2xl leading-[27px] lg:text-6xl lg:leading-[74px] lg:tracking-normal"
           data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos-duration="500"
         >
           Subscribe to Newsletter
         </h2>
         <div
           className="mx-auto lg:mx-0"
           data-aos="fade-down"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           data-aos-offset="1"
         >
           <form className="relative" onSubmit={handleSubmit}>
