@@ -3,10 +3,10 @@ import possibility from '../../../public/assets/images/Arrow 1.png';
 
 const Possibilities = () => {
   return (
-    <section className="bg-[#040d19] pt-64 pb-16 lg:py-20">
+    <section className="bg-[#040d19] pt-44 pb-16 lg:py-20">
       <div className="main-container">
         <div className="lg:flex justify-start items-center">
-          <h1 className="font-giahfita text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] lg:ml-24 font-semibold text-center lg:text-left  px-8 lg:px-0">
+          <h1 className="font-giahfita text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] lg:ml-24 font-bold lg:font-semibold text-center lg:text-left  px-8 lg:px-0">
             The possibilities <br className="hidden lg:block" /> are
             <br className="block lg:hidden" /> beyond
             <span className="block lg:hidden">your imagination</span>

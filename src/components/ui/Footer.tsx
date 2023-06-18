@@ -5,7 +5,7 @@ import github from '../../../public/assets/images/u_github.png';
 
 const Footer = () => {
   return (
-    <div className="py-12 lg:pt-32 lg:pb-16 ">
+    <div className="pt-12 pb-6 lg:pt-32 lg:pb-16 ">
       <div className="main-container">
         <div className="footercontainer flex flex-col lg:flex-row">
           <div className="leftpart lg:mr-auto flex flex-col">
@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="rightpart">
-            <div className="flex flex-col justify-start items-start lg:flex-row lg:justify-center lg:items-center lg:gap-x-32 gap-y-9 lg:gap-y-0">
+            <div className="flex flex-col justify-start items-start lg:flex-row lg:justify-center lg:items-center lg:gap-x-32 gap-y-6 lg:gap-y-0">
               {/* policy */}
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6 className="lg:text-center mb-2 lg:mb-5 text-xl font-[700] text-[rgba(236,112,112,1)]">

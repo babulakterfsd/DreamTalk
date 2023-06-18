@@ -17,11 +17,11 @@ const Hero = () => {
               DreamTalk
             </h2>
           </div>
-          <div className="mainbannertext mt-80 lg:mt-24">
-            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[40px] lg:leading-[68px] tracking-wide lg:tracking-normal font-semibold">
+          <div className="mainbannertext mt-60 lg:mt-24">
+            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[40px] lg:leading-[68px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
               Interact <br /> Inspire <br /> Innovate
             </h1>
-            <p className="lg:w-[631px] font-inter font-normal text-sm lg:text-xl lg:leading-7 mt-6 lg:mt-4 mb-10">
+            <p className="lg:w-[631px] font-inter lg:font-normal text-sm lg:text-xl lg:leading-7 mt-6 lg:mt-4 mb-10">
               Introducing an AI chatbot on Telegram, designed specifically for
               Instagram influencers. The chatbot provides a unique platform for
               interacting with fans through{' '}
@@ -30,7 +30,7 @@ const Hero = () => {
               <form className="relative">
                 <input
                   type="email"
-                  className="w-full lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none -ml-2 lg:-ml-3 "
+                  className="w-[85vw] lg:w-[600px] h-12 lg:h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none ml-1 lg:-ml-3"
                   placeholder="e.g. hello@dreamtalk.ai"
                   required
                 />

@@ -37,7 +37,7 @@ const Monetize = () => {
               offer premium content, while also selling physical and digital
               items directly through the chatbot.
             </p>
-            <div className="flex flex-row gap-x-6 mx-auto justify-center items-center">
+            <div className="flex flex-row gap-x-2 lg:gap-x-6 mx-auto justify-center items-center">
               <button
                 type="submit"
                 className="gradientBg py-1 lg:py-2 mt-2  rounded-full text-white font-normal lg:text-[1.1rem] flex gap-x-1 justify-center items-center px-3 lg:px-6"

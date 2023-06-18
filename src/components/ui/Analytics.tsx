@@ -1,8 +1,9 @@
 import Image from 'next/image';
 import analytics from '../../../public/assets/images/dashboard.png';
+import Styles from '../../styles/analytics.module.css';
 const Analytics = () => {
   return (
-    <div className="py-20 lg:py-36 px-4 lg:px-0">
+    <div className={`${Styles.bg} py-20 lg:py-36 px-4 lg:px-0`}>
       <div className="main-container">
         <div className="title flex flex-col lg:flex-row justify-center gap-x-6 ">
           <h2 className="font-giahfita font-bold text-2xl lg:text-6xl lg:leading-[74px] lg:tracking-normal">
