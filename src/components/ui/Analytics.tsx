@@ -30,7 +30,11 @@ const Analytics = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <Image src={analytics} alt="analytics" />
+          <Image
+            src={analytics}
+            alt="analytics"
+            className="lg:h-[497px] lg:w-[769px]"
+          />
         </div>
       </div>
     </div>
