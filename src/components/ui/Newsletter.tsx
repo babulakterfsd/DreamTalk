@@ -78,7 +78,7 @@ const Newsletter = () => {
       />
       <div className="main-container flex justify-center items-center flex-col gap-y-4 lg:gap-y-10 z-50 xl:z-0">
         <h2
-          className="font-giahfita font-bold text-2xl leading-[27px] lg:text-6xl lg:leading-[74px] lg:tracking-normal"
+          className="font-crimson font-bold text-2xl leading-[27px] lg:text-6xl lg:leading-[74px] lg:tracking-normal"
           data-aos="fade-down"
           data-aos-duration="500"
         >

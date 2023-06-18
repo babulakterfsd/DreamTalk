@@ -5,6 +5,8 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 @font-face {
   font-family: 'adieuregular';
   src: url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.eot');
@@ -22,16 +24,11 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: Giahfita sans-serif;
-  src: url('../../public/assets/fonts/giahfita/Giahfita.otf');
-}
-
 .font-adieu {
   font-family: 'adieuregular';
 }
-.font-giahfita {
-  font-family: 'Giahfita', sans-serif;
+.font-crimson {
+  font-family: 'Dancing Script', cursive;
 }
 .font-inter {
   font-family: 'Inter', sans-serif;

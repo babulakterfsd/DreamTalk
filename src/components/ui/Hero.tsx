@@ -91,7 +91,7 @@ const Hero = () => {
             </h2>
           </div>
           <div className="mainbannertext mt-[38vh] sm:mt-36 lg:mt-28">
-            <h1 className="font-giahfita text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] lg:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
+            <h1 className="font-crimson text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] lg:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
               <div data-aos="fade-down" data-aos-duration="500">
                 Interact
               </div>{' '}

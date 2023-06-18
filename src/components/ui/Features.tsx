@@ -18,7 +18,7 @@ const Features = () => {
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          <h2 className="font-giahfita text-2xl lg:text-6xl lg:leading-[67px] lg:tracking-wider font-bold">
+          <h2 className="font-crimson text-2xl lg:text-6xl lg:leading-[67px] lg:tracking-wider font-bold">
             Features
           </h2>
           <div className="flex justify-center">

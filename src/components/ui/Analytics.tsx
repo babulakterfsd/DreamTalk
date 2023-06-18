@@ -7,7 +7,7 @@ const Analytics = () => {
       <div className="main-container">
         <div className="title flex flex-col lg:flex-row justify-center gap-x-6 ">
           <h2
-            className="font-giahfita font-bold text-2xl lg:text-6xl lg:leading-[74px] lg:tracking-normal"
+            className="font-crimson font-bold text-2xl lg:text-6xl lg:leading-[74px] lg:tracking-normal"
             data-aos="fade-down"
             data-aos-duration="500"
           >

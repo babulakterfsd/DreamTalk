@@ -12,10 +12,10 @@ const Monetize = () => {
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          <h1 className="font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
+          <h1 className="font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
             Monetize Your <br /> Fanbase with Our{' '}
           </h1>
-          <h1 className=" gradientText font-giahfita font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:ml-80 lg:mt-4 hidden lg:block">
+          <h1 className=" gradientText font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:ml-80 lg:mt-4 hidden lg:block">
             AI Chatbot
           </h1>
         </div>
@@ -28,7 +28,7 @@ const Monetize = () => {
             data-aos-duration="1000"
           />
           <h1
-            className="font-giahfita font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal block lg:hidden"
+            className="font-crimson font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal block lg:hidden"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
