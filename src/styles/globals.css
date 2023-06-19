@@ -9,6 +9,13 @@
   font-family: 'Inter', sans-serif;
 }
 
+/* rubik font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif;
+}
+
 /* crimson font */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 

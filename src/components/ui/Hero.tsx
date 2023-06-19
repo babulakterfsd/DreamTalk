@@ -40,7 +40,7 @@ const Hero = () => {
         .post('/api/waitlist', {
           email: email,
         })
-        .then((res) => {
+        .then((res: any) => {
           if (res?.data?.statusCode === 200) {
             setEmail('');
             setShowResult(true);
@@ -60,7 +60,7 @@ const Hero = () => {
             }, 3000);
           }
         })
-        .catch((err) => {
+        .catch((err: any) => {
           setShowResult(true);
           setErrorMessage(err);
           setTimeout(() => {
@@ -85,7 +85,7 @@ const Hero = () => {
               className="w-[30px] lg:w-[52px] h-[59px] lg:h-[100px]"
             />
           </div>
-          <div className="mainbannertext mt-[50vh] sm:mt-36 lg:mt-6">
+          <div className="mainbannertext mt-[50vh] sm:mt-36 lg:mt-16">
             <h1 className="flex items-center gap-x-2 lg:h-20">
               <span className="gradientText font-adieu text-xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
                 DreamTalk
@@ -118,10 +118,9 @@ const Hero = () => {
                 />
               </span>
             </h1>
-            <p className="lg:w-[631px] font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7">
-              Introducing an AI chatbot on Telegram, designed specifically for
-              Instagram influencers. The chatbot provides a unique platform for
-              interacting with fans through{' '}
+            <p className="lg:w-[631px] font-rubik font-bold lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7">
+              Empowering influencers to reach new heights in fan engagement.
+              Join the AI chatbot revolution and unlock your full potential.
             </p>
             <div className="">
               <form className="relative" onSubmit={handleSubmit}>
