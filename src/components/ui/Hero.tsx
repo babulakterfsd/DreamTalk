@@ -1,9 +1,9 @@
 'use client';
 import axios from 'axios';
+import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-
-import Image from 'next/image';
+import { Typewriter } from 'react-simple-typewriter';
 import logo from '../../../public/assets/images/logo.png';
 import Styles from '../../styles/hero.module.css';
 
@@ -74,11 +74,9 @@ const Hero = () => {
   return (
     <section id="herosection" className="hero">
       <div className={`${Styles.herobackground} h-screen lg:h-screen`}>
-        <div className="herotextcontainer main-container flex flex-col ">
+        <div className="herotextcontainer main-container flex flex-col lg:gap-y-16">
           <div
-            className="flex justify-start items-center gap-x-2  lg:pt-1 cursor-pointer"
-            data-aos="fade-down"
-            data-aos-duration="500"
+            className="flex justify-start items-center gap-x-2  lg:pt-16 cursor-pointer lg:w-24"
             onClick={() => router.push('/')}
           >
             <Image
@@ -86,39 +84,46 @@ const Hero = () => {
               alt="logo"
               className="w-[30px] lg:w-[52px] h-[59px] lg:h-[100px]"
             />
-            <h2 className=" gradientText text-[1.2rem] lg:text-3xl mt-2 font-adieu font-light lg:font-bold">
-              DreamTalk
-            </h2>
           </div>
-          <div className="mainbannertext mt-[38vh] sm:mt-36 lg:mt-28">
-            <h1 className="font-crimson text-4xl lg:text-7xl leading-[20px] sm:leading-[30px] lg:leading-[36px] tracking-wide lg:tracking-normal font-bold lg:font-semibold">
-              <div data-aos="fade-down" data-aos-duration="500">
-                Interact
-              </div>{' '}
-              <br />{' '}
-              <div data-aos="fade-down" data-aos-duration="1000">
-                Inspire{' '}
-              </div>{' '}
-              <br />{' '}
-              <div data-aos="fade-down" data-aos-duration="2000">
-                Innovate
-              </div>
+          <div className="mainbannertext mt-[50vh] sm:mt-36 lg:mt-6">
+            <h1 className="flex items-center gap-x-2 lg:h-20">
+              <span className="gradientText font-adieu text-xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
+                DreamTalk
+              </span>
+              {/* <span className="font-crimson lg:font-medium lg:text-5xl lg:leading-[45px] lg:tracking-[.06em] capitalize lg:ml-4">
+                Interacts
+              </span> */}
+              <span className="font-crimson font-extralight lg:font-medium text-2xl lg:text-5xl lg:leading-[45px] lg:tracking-[.06em] capitalize -mt-2 lg:-mt-4">
+                <Typewriter
+                  words={[
+                    'Interacts',
+                    'Engages',
+                    'Inspires',
+                    'Amazes',
+                    'Tempts',
+                    'Innovates',
+                    'Connects',
+                    'Transforms',
+                    'Revolutionises',
+                    'Attracts',
+                    'Entertains',
+                    'Chats',
+                  ]}
+                  loop={false}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
             </h1>
-            <p
-              className="lg:w-[631px] font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
-              data-aos="fade-down"
-              data-aos-duration="500"
-            >
+            <p className="lg:w-[631px] font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7">
               Introducing an AI chatbot on Telegram, designed specifically for
               Instagram influencers. The chatbot provides a unique platform for
               interacting with fans through{' '}
             </p>
-            <div
-              className=""
-              data-aos="fade-up"
-              data-aos-duration="500"
-              data-aos-offset="1"
-            >
+            <div className="">
               <form className="relative" onSubmit={handleSubmit}>
                 <input
                   type="email"

@@ -9,14 +9,12 @@
   font-family: 'Inter', sans-serif;
 }
 
-
 /* crimson font */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
 .font-crimson {
   font-family: 'Crimson Pro', serif;
 }
-
 
 @font-face {
   font-family: 'adieuregular';
@@ -38,7 +36,6 @@
 .font-adieu {
   font-family: 'adieuregular';
 }
-
 
 html,
 body {
