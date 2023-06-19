@@ -78,6 +78,8 @@ const Hero = () => {
           <div
             className="flex justify-start items-center gap-x-2  lg:pt-16 cursor-pointer lg:w-24"
             onClick={() => router.push('/')}
+            data-aos="fade-down"
+            data-aos-duration="500"
           >
             <Image
               src={logo}
@@ -86,7 +88,11 @@ const Hero = () => {
             />
           </div>
           <div className="mainbannertext mt-[50vh] sm:mt-36 lg:mt-16">
-            <h1 className="flex items-center gap-x-2 lg:h-20">
+            <h1
+              className="flex items-center gap-x-2 lg:h-20"
+              data-aos="fade-down"
+              data-aos-duration="1000"
+            >
               <span className="gradientText font-adieu text-xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
                 DreamTalk
               </span>
@@ -118,11 +124,20 @@ const Hero = () => {
                 />
               </span>
             </h1>
-            <p className="lg:w-[631px] font-rubik font-bold lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7">
+            <p
+              className="lg:w-[631px] font-rubik font-bold lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
               Empowering influencers to reach new heights in fan engagement.
               Join the AI chatbot revolution and unlock your full potential.
             </p>
-            <div className="">
+            <div
+              className=""
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-offset="1"
+            >
               <form className="relative" onSubmit={handleSubmit}>
                 <input
                   type="email"
