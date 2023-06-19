@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
@@ -28,7 +28,7 @@
   font-family: 'adieuregular';
 }
 .font-crimson {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Crimson Pro', serif;
 }
 .font-inter {
   font-family: 'Inter', sans-serif;
