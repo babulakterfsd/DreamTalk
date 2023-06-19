@@ -2,10 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* fonts */
+/* inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* crimson font */
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.font-crimson {
+  font-family: 'Crimson Pro', serif;
+}
+
 
 @font-face {
   font-family: 'adieuregular';
@@ -27,12 +38,7 @@
 .font-adieu {
   font-family: 'adieuregular';
 }
-.font-crimson {
-  font-family: 'Crimson Pro', serif;
-}
-.font-inter {
-  font-family: 'Inter', sans-serif;
-}
+
 
 html,
 body {
