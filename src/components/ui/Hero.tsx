@@ -131,7 +131,7 @@ const Hero = () => {
             >
               Empowering influencers to reach new heights in fan engagement.
               Join the AI chatbot revolution and unlock your full potential
-              testing dev branch.
+              testing dev branch by babul.
             </p>
             <div
               className=""
