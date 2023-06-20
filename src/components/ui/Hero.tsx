@@ -130,7 +130,8 @@ const Hero = () => {
               data-aos-duration="1500"
             >
               Empowering influencers to reach new heights in fan engagement.
-              Join the AI chatbot revolution and unlock your full potential.
+              Join the AI chatbot revolution and unlock your full potential
+              testing dev branch.
             </p>
             <div
               className=""
