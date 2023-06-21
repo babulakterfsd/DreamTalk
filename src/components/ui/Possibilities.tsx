@@ -13,7 +13,7 @@ const Possibilities = () => {
           <h1 className="font-crimson text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] lg:ml-24 font-bold lg:font-semibold text-center lg:text-left  px-8 lg:px-0">
             The possibilities <br className="hidden lg:block" /> are
             <br className="block lg:hidden" /> beyond
-            <span className="block lg:hidden">your imagination</span>
+            <span className="lg:hidden">your imagination</span>
           </h1>
           <Image
             src={possibility}
