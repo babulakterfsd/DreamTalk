@@ -133,7 +133,7 @@ const Hero = () => {
               <span className="lg:font-extrabold lg:text-2xl">DreamTalk</span> .
               Create unforgettable, customized experiences, captivating your
               followers like never before. <br />
-              <span className="mt-8 block lg:leading-[36px] lg:font-extrabold">
+              <span className="lg:mt-5 block lg:leading-[36px] lg:font-extrabold">
                 {' '}
                 The future of engagement has arrived.{' '}
               </span>
