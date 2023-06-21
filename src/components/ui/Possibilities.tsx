@@ -6,11 +6,11 @@ const Possibilities = () => {
     <section className="bg-[#040d19] pt-20 pb-16 lg:py-28 xl:py-20">
       <div className="main-container">
         <div
-          className="lg:flex justify-start items-center"
+          className="lg:flex justify-center lg:justify-start items-center"
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          <h1 className="font-crimson text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-left lg:text-left lg:px-0 capitalize">
+          <h1 className="font-crimson text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-center lg:px-0 capitalize">
             The possibilities <br className="hidden lg:block" /> are
             <br className="lg:hidden" /> beyond{' '}
             <span className="lg:hidden">your imagination</span>

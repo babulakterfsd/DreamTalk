@@ -41,7 +41,7 @@ const Features = () => {
               alt="feature1"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:w-[75%] lg:text-center">
+            <p className=" lg:text-base font-inter lg:text-center">
               Personalized experience tailored to each user's preferences
             </p>
           </div>
@@ -51,7 +51,7 @@ const Features = () => {
               alt="feature2"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:w-[75%] lg:text-center">
+            <p className=" lg:text-base font-inter lg:text-center">
               Sell physical and digital content directly through built-in store
             </p>
           </div>
@@ -61,7 +61,7 @@ const Features = () => {
               alt="feature3"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:w-[75%] lg:text-center">
+            <p className=" lg:text-base font-inter lg:text-center">
               Integration with Influencers for seamless fan interaction
             </p>
           </div>
