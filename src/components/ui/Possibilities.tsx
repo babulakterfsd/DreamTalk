@@ -25,7 +25,7 @@ const Possibilities = () => {
             your <br /> <span className="lg:-ml-40">imagination</span>
           </h1>
         </div>
-        <div
+        {/* <div
           className="flex justify-start md:justify-center lg:justify-start lg:ml-60 lg:mt-3"
           data-aos="fade-down"
           data-aos-duration="1000"
@@ -38,7 +38,7 @@ const Possibilities = () => {
             business, all while generating income through the use of an AI
             chatbot.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );
