@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 768px) {
   .herobackground {
-    background: url('../../public/assets/images/header_image_original\ 1.png');
+    background: url('../../public/assets/images/mobilebannerbg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

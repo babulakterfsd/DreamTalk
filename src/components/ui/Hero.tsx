@@ -125,7 +125,7 @@ const Hero = () => {
               </span>
             </h1>
             <p
-              className="lg:w-[631px] font-rubik font-bold lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
+              className="lg:w-[631px] font-rubik font-normal lg:font-bold lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
               data-aos="fade-down"
               data-aos-duration="1500"
             >

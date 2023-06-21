@@ -19,8 +19,8 @@ const Analytics = () => {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            Revolutionize your Instagram influence with Unparalleled Insights &
-            Live Analytics. Harness our AI chatbot on Telegram to foster deeper
+            Revolutionize your influence with Unparalleled Insights & Live
+            Analytics. Harness our AI chatbot on Telegram to foster deeper
             connections with fans, offer premium content, and sell merchandise
             directly through engaging conversations.
           </p>

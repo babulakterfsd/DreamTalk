@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import redelips from '../../../public/assets/images/Ellipse 2484.png';
 import rightarrow from '../../../public/assets/images/arrow-right.png';
-import monetize from '../../../public/assets/images/video.png';
 
 const Monetize = () => {
   return (
@@ -20,15 +19,17 @@ const Monetize = () => {
           </h1>
         </div>
         <div className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative">
-          <Image
-            src={monetize}
-            alt="monetize"
-            className="lg:h-[407px] lg:w-[547px] mb-9 lg:mb-0"
-            data-aos="fade-down"
-            data-aos-duration="1000"
-          />
+          <iframe
+            title="dreamtalk.ai - Introduction"
+            src="https://player.vimeo.com/video/838030231"
+            width="560"
+            height="315"
+            allow="autoplay; fullscreen; picture-in-picture"
+            className={` rounded-2xl rounded-bl-xl h-80 w-full px-3 md:px-0 lg:w-[560px] -mt-10 md:-mt-0 `}
+            style={{ borderRadius: '2rem' }}
+          ></iframe>
           <h1
-            className="font-crimson font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal block lg:hidden"
+            className="font-crimson font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal mt-4 block lg:hidden"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
@@ -47,11 +48,11 @@ const Monetize = () => {
           >
             <p className="mb-7 lg:mb-14 lg:w-[400px] font-semibold lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
               Monetize your fanbase with our AI chatbot on Telegram designed for
-              Instagram influencers. Connect with fans like never before and
-              offer premium content, while also selling physical and digital
-              items directly through the chatbot.
+              influencers. Connect with fans like never before and offer premium
+              content, while also selling physical and digital items directly
+              through the chatbot.
             </p>
-            <div className="flex flex-row gap-x-2 lg:gap-x-6 mx-auto justify-center items-center">
+            <div className="flex flex-row  justify-center lg:justify-start items-center">
               <a href="#herosection">
                 <button
                   type="submit"

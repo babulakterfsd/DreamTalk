@@ -30,10 +30,13 @@ const Possibilities = () => {
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          <p className="font-inter font-semibold lg:font-normal lg:text-xl lg:leading-7 mt-3 text-center lg:text-left lg:mt-4 lg:w-[483px]">
-            Lorem ipsum dolor sit amet consectetur. Gravida a pretium id id
-            lacus tellus mauris quis scelsque. amet consectetur mauris quis
-            sceleri.
+          <p className="font-inter font-medium lg:font-normal lg:text-xl lg:leading-7 mt-3 text-center lg:text-left lg:mt-4 lg:w-[483px]">
+            AI chatbots can revolutionize how influencers engage with their
+            followers. They adapt to the influencer's brand voice, provide
+            personalization and handle a large volume of messages. This frees up
+            time for the influencer to focus on other important aspects of their
+            business, all while generating income through the use of an AI
+            chatbot.
           </p>
         </div>
       </div>

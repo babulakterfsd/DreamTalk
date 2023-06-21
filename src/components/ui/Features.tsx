@@ -22,9 +22,11 @@ const Features = () => {
             Features
           </h2>
           <div className="flex justify-center">
-            <p className="lg:w-[631px] font-inter font-semibold lg:font-normal  lg:text-xl lg:leading-7 mt-1 lg:mt-4 mb-10 lg:mb-14 px-8 lg:px-0">
-              Lorem ipsum dolor sit amet constur. Gravida pretium id id lacus
-              tellus mauris quis scelerisque{' '}
+            <p className="lg:w-[631px] font-inter font-medium lg:font-normal  lg:text-xl lg:leading-7 mt-1 lg:mt-4 mb-10 lg:mb-14 px-8 lg:px-0">
+              Our AI chatbots come equipped with a wide range of features, and
+              everything from the chatbot's personality to its responses and the
+              services it offers can be fully customized to fit your brand and
+              audience.
             </p>
           </div>
         </div>
@@ -33,34 +35,34 @@ const Features = () => {
           data-aos="fade-down"
           data-aos-duration="1000"
         >
-          <div className="feature1 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8">
+          <div className="feature1 lg:border border-white flex lg:justify-center lg:items-center gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:px-16 lg:py-8">
             <Image
               src={feature1}
               alt="feature1"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:w-[75%]">
+            <p className=" lg:text-base font-inter lg:w-[75%] lg:text-center">
               Personalized experience tailored to each user's preferences
             </p>
           </div>
-          <div className="feature2 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8">
+          <div className="feature2 lg:border border-white flex lg:justify-center lg:items-center gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:px-16 lg:py-8">
             <Image
               src={feature2}
               alt="feature2"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:w-[75%]">
+            <p className=" lg:text-base font-inter lg:w-[75%] lg:text-center">
               Sell physical and digital content directly through built-in store
             </p>
           </div>
-          <div className="feature3 lg:border border-white flex gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:pl-16 lg:py-8 sm:-ml-10 lg:ml-0">
+          <div className="feature3 lg:border border-white flex lg:justify-center lg:items-center gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:px-16 lg:py-8 sm:-ml-10 lg:ml-0">
             <Image
               src={feature3}
               alt="feature3"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:w-[75%]">
-              Integration with Instagram for seamless fan interaction
+            <p className=" lg:text-base font-inter lg:w-[75%] lg:text-center">
+              Integration with Influencers for seamless fan interaction
             </p>
           </div>
         </div>
