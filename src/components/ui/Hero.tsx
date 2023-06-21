@@ -87,7 +87,7 @@ const Hero = () => {
               className="w-[30px] lg:w-[52px] h-[59px] lg:h-[100px]"
             />
           </div>
-          <div className="mainbannertext mt-[50vh] sm:mt-36 lg:mt-14">
+          <div className="mainbannertext mt-[45vh] sm:mt-36 lg:mt-14">
             <h1
               className="flex items-center gap-x-2 lg:h-20"
               data-aos="fade-down"
@@ -125,15 +125,17 @@ const Hero = () => {
               </span>
             </h1>
             <p
-              className="lg:w-[535px] font-crimson font-normal lg:text-[1.2rem] lg:leading-[30px] mt-4 mb-3 lg:mb-7"
+              className="lg:w-[535px] font-rubik lg:font-crimson font-normal lg:text-[1.2rem] lg:leading-[30px] mt-4 mb-3 lg:mb-7"
               data-aos="fade-down"
               data-aos-duration="1500"
             >
               Experience AI-driven fan engagements with{' '}
-              <span className="lg:font-extrabold lg:text-2xl">DreamTalk</span> .
-              Create unforgettable, customized experiences, captivating your
+              <span className="font-bold lg:font-extrabold text-lg lg:text-2xl">
+                DreamTalk
+              </span>{' '}
+              . Create unforgettable, customized experiences, captivating your
               followers like never before. <br />
-              <span className="lg:mt-5 block lg:leading-[36px] lg:font-extrabold">
+              <span className="mt-5 block lg:leading-[36px] font-bold lg:font-extrabold">
                 {' '}
                 The future of engagement has arrived.{' '}
               </span>

@@ -10,7 +10,7 @@ const Possibilities = () => {
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          <h1 className="font-crimson text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] lg:ml-24 font-bold lg:font-semibold text-left lg:text-left lg:px-0">
+          <h1 className="font-crimson text-2xl leading-[23px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-left lg:text-left lg:px-0 capitalize">
             The possibilities <br className="hidden lg:block" /> are
             <br className="lg:hidden" /> beyond{' '}
             <span className="lg:hidden">your imagination</span>
@@ -18,9 +18,9 @@ const Possibilities = () => {
           <Image
             src={possibility}
             alt="possibility"
-            className="h-6 lg:mt-14 lg:-ml-28 hidden lg:block"
+            className="h-6 lg:mt-14  hidden lg:block"
           />
-          <h1 className="font-crimson lg:text-6xl lg:leading-[64px] lg:ml-8 lg:mt-28 font-semibold hidden lg:block">
+          <h1 className="font-crimson lg:text-6xl lg:leading-[64px] lg:ml-20 lg:mt-28 font-semibold hidden lg:block capitalize">
             {' '}
             your <br /> <span className="lg:-ml-40">imagination</span>
           </h1>
