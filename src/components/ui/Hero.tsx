@@ -76,7 +76,7 @@ const Hero = () => {
       <div className={`${Styles.herobackground} h-screen lg:h-screen`}>
         <div className="herotextcontainer main-container flex flex-col lg:gap-y-16">
           <div
-            className="flex justify-start items-center gap-x-2  lg:pt-16 cursor-pointer lg:w-24"
+            className="flex justify-start items-center gap-x-2  lg:pt-10 cursor-pointer lg:w-24"
             onClick={() => router.push('/')}
             data-aos="fade-down"
             data-aos-duration="500"
@@ -87,7 +87,7 @@ const Hero = () => {
               className="w-[30px] lg:w-[52px] h-[59px] lg:h-[100px]"
             />
           </div>
-          <div className="mainbannertext mt-[50vh] sm:mt-36 lg:mt-16">
+          <div className="mainbannertext mt-[50vh] sm:mt-36 lg:mt-14">
             <h1
               className="flex items-center gap-x-2 lg:h-20"
               data-aos="fade-down"
@@ -125,12 +125,18 @@ const Hero = () => {
               </span>
             </h1>
             <p
-              className="lg:w-[631px] font-rubik font-normal lg:font-bold lg:text-xl lg:leading-7 mt-4 lg:mt-5 mb-3 lg:mb-7"
+              className="lg:w-[535px] font-crimson font-normal lg:text-[1.2rem] lg:leading-[30px] mt-4 mb-3 lg:mb-7"
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              Empowering influencers to reach new heights in fan engagement.
-              Join the AI chatbot revolution and unlock your full potential.
+              Experience AI-driven fan engagements with{' '}
+              <span className="lg:font-extrabold lg:text-2xl">DreamTalk</span> .
+              Create unforgettable, customized experiences, captivating your
+              followers like never before. <br />
+              <span className="mt-8 block lg:leading-[36px] lg:font-extrabold">
+                {' '}
+                The future of engagement has arrived.{' '}
+              </span>
             </p>
             <div
               className=""
