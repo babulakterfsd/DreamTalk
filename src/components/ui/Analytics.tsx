@@ -15,7 +15,7 @@ const Analytics = () => {
             <span className="gradientText">Live Analytics</span>
           </h2>
           <p
-            className="font-inter font-normal text-sm lg:text-xl lg:leading-7 lg:w-[483px] mt-4 lg:mt-28 lg:-ml-14 mb-7 lg:mb-16"
+            className="font-inter font-normal lg:text-xl lg:leading-7 lg:w-[483px] mt-4 lg:mt-28 lg:-ml-14 mb-7 lg:mb-16"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
