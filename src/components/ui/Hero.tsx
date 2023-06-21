@@ -87,7 +87,7 @@ const Hero = () => {
               className="w-[30px] lg:w-[52px] h-[59px] lg:h-[100px]"
             />
           </div>
-          <div className="mainbannertext mt-[45vh] sm:mt-36 lg:mt-14">
+          <div className="mainbannertext mt-[44vh] sm:mt-36 lg:mt-14">
             <h1
               className="flex items-center gap-x-2 lg:h-20"
               data-aos="fade-down"
@@ -125,7 +125,7 @@ const Hero = () => {
               </span>
             </h1>
             <p
-              className="lg:w-[535px] font-rubik lg:font-crimson font-normal lg:text-[1.2rem] lg:leading-[30px] mt-4 mb-3 lg:mb-7"
+              className="lg:w-[535px] font-crimson leading-[20px] font-normal lg:text-[1.2rem] mt-4 mb-3 lg:mb-7"
               data-aos="fade-down"
               data-aos-duration="1500"
             >
@@ -149,7 +149,7 @@ const Hero = () => {
               <form className="relative" onSubmit={handleSubmit}>
                 <input
                   type="email"
-                  className={`${Styles.heroinput} w-[87vw] sm:w-[60vw] lg:w-[600px] h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3`}
+                  className={`${Styles.heroinput} w-[87vw] sm:w-[60vw] lg:w-[600px] h-14 pl-5 lg:pl-10 text-sm border rounded-full bg-[rgba(24,33,46,1)] lg:bg-[#161a25] border-none focus:outline-none -ml-1 lg:-ml-3 font-crimson`}
                   placeholder="e.g. hello@dreamtalk.ai"
                   required
                   value={email}

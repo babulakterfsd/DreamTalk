@@ -3,9 +3,11 @@ import Script from 'next/script';
 import '../styles/globals.css';
 
 export const metadata = {
-  title: 'DreamTalk',
+  title: 'DreamTalk - Reinventing engagement',
   description:
-    'DreamTalk helps you maximize fan interactions and extend your reach using AI',
+    'Discover DreamTalk, the ultimate AI chatbot designed for influencers, offering personalized interactions, gamified fan engagement, and a powerful analytics dashboard to boost your digital presence and earnings.',
+  keywords:
+    'dreamtalk, dreamtalk ai, dreamtalkai, dreamtalk.ai, dreamtalk chatbot, dreamtalk chat bot, dreamtalk chatbot ai, dreamtalk chat bot ai, dreamtalk chatbot, AI chatbot, Instagram influencers, fan engagement, customization',
 };
 
 const ga_id = 'G-1J06P5QZ1G';

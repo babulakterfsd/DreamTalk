@@ -22,11 +22,9 @@ const Features = () => {
             Features
           </h2>
           <div className="flex justify-center">
-            <p className="lg:w-[631px] font-inter font-medium lg:font-normal  lg:text-xl lg:leading-7 mt-1 lg:mt-4 mb-10 lg:mb-14 px-8 lg:px-0">
-              Our AI chatbots come equipped with a wide range of features, and
-              everything from the chatbot's personality to its responses and the
-              services it offers can be fully customized to fit your brand and
-              audience.
+            <p className="lg:w-[631px] font-crimson font-medium lg:font-normal  lg:text-xl leading-[20px] lg:leading-7 mt-1 lg:mt-4 mb-10 lg:mb-14 px-8 lg:px-0">
+              DreamTalk's AI capabilities allow for richer, more personalized
+              connections with your audience.
             </p>
           </div>
         </div>
@@ -41,8 +39,9 @@ const Features = () => {
               alt="feature1"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:text-center lg:min-h-[70px]">
-              Personalized experience tailored to each user's preferences
+            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[70px]">
+              Experience authentic engagement with DreamTalk, designed to mirror
+              your distinctive persona and flair.
             </p>
           </div>
           <div className="feature2 lg:border border-white flex lg:justify-center lg:items-center gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:px-16 lg:py-8">
@@ -51,8 +50,9 @@ const Features = () => {
               alt="feature2"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:text-center lg:min-h-[70px]">
-              Sell physical and digital content directly through built-in store
+            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[70px]">
+              Drive fan loyalty with our built-in store, allowing you to sell
+              digital, physical and custom content.
             </p>
           </div>
           <div className="feature3 lg:border border-white flex lg:justify-center lg:items-center gap-x-4 lg:gap-x-0 lg:flex-col lg:gap-y-8 lg:px-16 lg:py-8 sm:-ml-10 lg:ml-0">
@@ -61,8 +61,9 @@ const Features = () => {
               alt="feature3"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-inter lg:text-center lg:min-h-[70px]">
-              Integration with Influencers for seamless fan interaction
+            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[70px]">
+              Leverage the winning combination of DreamTalk and gamification,
+              upping the ante for your Instagram followers.
             </p>
           </div>
         </div>

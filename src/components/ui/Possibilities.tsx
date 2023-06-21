@@ -20,7 +20,7 @@ const Possibilities = () => {
             alt="possibility"
             className="h-6 lg:mt-14  hidden lg:block"
           />
-          <h1 className="font-crimson lg:text-6xl lg:leading-[64px] lg:ml-20 lg:mt-28 font-semibold hidden lg:block capitalize">
+          <h1 className="font-crimson lg:text-6xl lg:leading-[64px] lg:ml-20  lg:mt-28 font-semibold hidden lg:block capitalize">
             {' '}
             your <br /> <span className="lg:-ml-40">imagination</span>
           </h1>

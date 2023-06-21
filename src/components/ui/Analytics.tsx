@@ -15,14 +15,15 @@ const Analytics = () => {
             <span className="gradientText">Live Analytics</span>
           </h2>
           <p
-            className="font-inter font-normal lg:text-xl lg:leading-7 lg:w-[483px] mt-4 lg:mt-28 lg:-ml-14 mb-7 lg:mb-16"
+            className="font-crimson font-normal lg:text-xl lg:leading-7 lg:w-[483px] mt-4 lg:mt-28 lg:-ml-14 mb-7 lg:mb-16"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            Revolutionize your influence with Unparalleled Insights & Live
-            Analytics. Harness our AI chatbot on Telegram to foster deeper
-            connections with fans, offer premium content, and sell merchandise
-            directly through engaging conversations.
+            Gain invaluable insights into your audience’s preferences, allowing
+            for data-driven decisions that will further improve the user
+            experience. The analytics dashboard provides you with a detailed
+            breakdown of trends, insights and identifying the topics that
+            resonate most with your fans.
           </p>
         </div>
         <div

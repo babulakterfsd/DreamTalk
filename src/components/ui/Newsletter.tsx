@@ -82,7 +82,7 @@ const Newsletter = () => {
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          Subscribe to Newsletter
+          Subscribe to Our Newsletter
         </h2>
         <div
           className="mx-auto lg:mx-0"
@@ -93,7 +93,7 @@ const Newsletter = () => {
           <form className="relative" onSubmit={handleSubmit}>
             <input
               type="email"
-              className="w-[88vw] sm:w-[60vw] lg:w-[600px] h-12 lg:h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none lg:-ml-3 bg-opacity-60"
+              className="w-[88vw] sm:w-[60vw] lg:w-[600px] h-12 lg:h-14 pl-10 text-sm border rounded-full bg-[#161a25] border-none focus:outline-none lg:-ml-3 bg-opacity-60 font-crimson"
               placeholder="e.g. hello@dreamtalk.ai"
               required
               value={email}

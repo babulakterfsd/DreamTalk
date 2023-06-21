@@ -12,10 +12,10 @@ const Monetize = () => {
           data-aos-duration="500"
         >
           <h1 className="font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
-            Monetize Your <br /> Fanbase with Our{' '}
+            Amplify Your <br /> Fanbase With
           </h1>
-          <h1 className=" gradientText font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:ml-80 lg:mt-4 hidden lg:block">
-            AI Chatbot
+          <h1 className=" gradientText font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:ml-[500px] lg:mt-4 hidden lg:block ">
+            DreamTalk AI
           </h1>
         </div>
         <div className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative">
@@ -33,8 +33,8 @@ const Monetize = () => {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            Monetize your fanbase with our{' '}
-            <span className="gradientText">AI Chatbot</span>
+            Amplify Your Fanbase With{' '}
+            <span className="gradientText">DreamTalk AI</span>
           </h1>
           <Image
             src={redelips}
@@ -46,11 +46,14 @@ const Monetize = () => {
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            <p className="mb-7 lg:mb-14 lg:w-[400px] font-semibold lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
-              Monetize your fanbase with our AI chatbot on Telegram designed for
-              influencers. Connect with fans like never before and offer premium
-              content, while also selling physical and digital items directly
-              through the chatbot.
+            <p className="mb-7 lg:mb-14 font-crimson lg:w-[400px] font-medium lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
+              Let us aid you in maximizing your reach.{' '}
+              <span className="inline-block my-4">
+                Connect with your fans on a deeper level, offering them
+                exclusive premium content that keeps them coming back for more.
+              </span>{' '}
+              Explore the potential of integrating DreamTalk into your your
+              digital presence.
             </p>
             <div className="flex flex-row  justify-center lg:justify-start items-center">
               <a href="#herosection">
