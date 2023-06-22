@@ -21,7 +21,7 @@ const Monetize = () => {
             DreamTalk AI
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between gap-x-4 xl:gap-x-20 items-center lg:relative">
+        <div className="flex flex-col lg:flex-row justify-around gap-x-4 xl:gap-x-20 items-center lg:relative">
           <iframe
             title="dreamtalk.ai - Introduction"
             src="https://player.vimeo.com/video/838030231"
