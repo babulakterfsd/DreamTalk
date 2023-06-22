@@ -87,7 +87,7 @@ const Hero = () => {
               className="w-[30px] lg:w-[52px] h-[59px] lg:h-[100px]"
             />
           </div>
-          <div className="mainbannertext mt-[44vh] sm:mt-36 lg:mt-14">
+          <div className="mainbannertext mt-[46vh] sm:mt-36 lg:mt-20">
             <h1
               className="flex items-center gap-x-2 lg:h-20"
               data-aos="fade-down"
@@ -131,9 +131,10 @@ const Hero = () => {
             >
               Experience AI-driven fan engagements with{' '}
               <span className="font-bold lg:font-extrabold text-lg lg:text-2xl">
-                DreamTalk
+                DreamTalk.
               </span>{' '}
-              . Create unforgettable, customized experiences, captivating your
+              <br />
+              Create unforgettable, customized experiences, captivating your
               followers like never before. <br />
               <span className="mt-5 block lg:leading-[36px] font-bold lg:font-extrabold">
                 {' '}

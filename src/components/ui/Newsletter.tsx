@@ -82,7 +82,7 @@ const Newsletter = () => {
           data-aos="fade-down"
           data-aos-duration="500"
         >
-          Subscribe to Our Newsletter
+          Subscribe To Our Newsletter
         </h2>
         <div
           className="mx-auto lg:mx-0"
