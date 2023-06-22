@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import redelips from '../../../public/assets/images/Ellipse 2484.png';
 import rightarrow from '../../../public/assets/images/arrow-right.png';
+import Styles from '../../styles/monetize.module.css';
 
 const Monetize = () => {
   return (
@@ -14,18 +15,18 @@ const Monetize = () => {
           <h1 className="font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal hidden lg:block">
             Amplify Your <br /> Fanbase With
           </h1>
-          <h1 className=" gradientText font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:ml-[500px] lg:mt-4 hidden lg:block ">
+          <h1
+            className={`${Styles.drmtalk} gradientText font-crimson font-bold lg:text-6xl lg:leading-[74px] lg:tracking-normal lg:mt-4 hidden lg:block `}
+          >
             DreamTalk AI
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row justify-start gap-x-4 xl:gap-x-20 items-center lg:relative">
+        <div className="flex flex-col lg:flex-row justify-between gap-x-4 xl:gap-x-20 items-center lg:relative">
           <iframe
             title="dreamtalk.ai - Introduction"
             src="https://player.vimeo.com/video/838030231"
-            width="560"
-            height="315"
             allow="autoplay; fullscreen; picture-in-picture"
-            className={` rounded-2xl rounded-bl-xl h-80 w-full px-3 md:px-0 lg:w-[560px] -mt-10 md:-mt-0 `}
+            className={` rounded-2xl rounded-bl-xl h-80 px-3 md:px-0  -mt-10 md:-mt-0`}
             style={{ borderRadius: '2rem' }}
           ></iframe>
           <h1
@@ -42,11 +43,13 @@ const Monetize = () => {
             className="lg:absolute -top-24 -left-40 hidden lg:block"
           />
           <div
-            className="textcontainer text-left"
+            className="textcontainer flex justify-between flex-col"
             data-aos="fade-down"
             data-aos-duration="1000"
           >
-            <p className="mb-7 lg:mb-14 font-crimson lg:w-[400px] font-medium lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0">
+            <p
+              className={` ${Styles.fckparagraph} mb-7 lg:mb-14 font-crimson lg:w-[400px] font-medium lg:font-normal text-center lg:text-left lg:text-xl mt-4 lg:mt-0`}
+            >
               Let us aid you in maximizing your reach.{' '}
               <span className="inline-block my-4">
                 Connect with your fans on a deeper level, offering them

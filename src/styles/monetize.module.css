@@ -1,0 +1,17 @@
+@media screen and (min-width: 1014px) and (max-width: 1199px)  {
+    .drmtalk {
+       margin-left: 500px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px)  {
+    .drmtalk {
+       margin-left: 700px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1980px)  {
+    .drmtalk {
+       margin-left: 850px;
+    }
+}

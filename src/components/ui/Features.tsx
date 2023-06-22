@@ -39,7 +39,7 @@ const Features = () => {
               alt="feature1"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[70px]">
+            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[100px]">
               Experience authentic engagement with DreamTalk, designed to mirror
               your distinctive persona and flair.
             </p>
@@ -50,7 +50,7 @@ const Features = () => {
               alt="feature2"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[70px]">
+            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[100px]">
               Drive fan loyalty with our built-in store, allowing you to sell
               digital, physical and custom content.
             </p>
@@ -61,7 +61,7 @@ const Features = () => {
               alt="feature3"
               className="w-[40px] lg:w-[101px] h-[40px] lg:h-[100px]"
             />
-            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[70px]">
+            <p className=" lg:text-base font-crimson lg:text-center lg:min-h-[100px]">
               Leverage the winning combination of DreamTalk and gamification,
               upping the ante for your Instagram followers.
             </p>
