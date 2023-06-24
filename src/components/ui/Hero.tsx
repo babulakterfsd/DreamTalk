@@ -74,7 +74,7 @@ const Hero = () => {
   return (
     <section id="herosection" className="hero">
       <div className={`${Styles.herobackground} `}>
-        <div className="herotextcontainer main-container lg:pb-16 flex flex-col lg:gap-y-16">
+        <div className="herotextcontainer main-container lg:pb-20 flex flex-col lg:gap-y-16">
           <div
             className="flex justify-start items-center gap-x-2  lg:pt-10 cursor-pointer lg:w-24"
             onClick={() => router.push('/')}
