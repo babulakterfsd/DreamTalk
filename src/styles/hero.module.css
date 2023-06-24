@@ -1,5 +1,5 @@
 .herobackground {
-  background: url('../../public/assets/images/herobg.png');
+  background: url('../../public/assets/images/webp/dreamtalk-desktop-bannerbg.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 768px) {
   .herobackground {
-    background: url('../../public/assets/images/mobilebannerbg.png');
+    background: url('../../public/assets/images/webp/dreamtalk-mobile-bannerbg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

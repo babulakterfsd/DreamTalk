@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import analytics from '../../../public/assets/images/dashboard.png';
+import analytics from '../../../public/assets/images/webp/dreamtalk-dashboard-desktop.webp';
 import Styles from '../../styles/analytics.module.css';
 const Analytics = () => {
   return (
