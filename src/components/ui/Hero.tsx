@@ -74,7 +74,7 @@ const Hero = () => {
   return (
     <section id="herosection" className="hero">
       <div className={`${Styles.herobackground} `}>
-        <div className="herotextcontainer  main-container flex flex-col lg:gap-y-16">
+        <div className="herotextcontainer main-container lg:pb-16 flex flex-col lg:gap-y-16">
           <div
             className="flex justify-start items-center gap-x-2  lg:pt-10 cursor-pointer lg:w-24"
             onClick={() => router.push('/')}
@@ -93,7 +93,7 @@ const Hero = () => {
               data-aos="fade-down"
               data-aos-duration="1000"
             >
-              <span className="gradientText font-adieu text-xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
+              <span className="gradientText font-adieu font-black text-2xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
                 DreamTalk
               </span>
               {/* <span className="font-crimson lg:font-medium lg:text-5xl lg:leading-[45px] lg:tracking-[.06em] capitalize lg:ml-4">
@@ -110,7 +110,7 @@ const Hero = () => {
                     'Innovates',
                     'Connects',
                     'Transforms',
-                    'Revolutionises',
+                    'Revolutions',
                     'Attracts',
                     'Entertains',
                     'Chats',
