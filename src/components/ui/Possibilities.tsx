@@ -3,7 +3,7 @@ import possibility from '../../../public/assets/images/Arrow 1.png';
 
 const Possibilities = () => {
   return (
-    <section className="bg-[#040d19] pt-20 pb-16 lg:py-28 xl:py-20">
+    <section className="bg-[#040d19] pt-20 pb-16 lg:py-28 xl:py-20 relative">
       <div className="main-container">
         <div
           className="lg:flex justify-center lg:justify-start items-center"
