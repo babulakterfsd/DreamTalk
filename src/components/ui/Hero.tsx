@@ -10,6 +10,7 @@ import Styles from '../../styles/hero.module.css';
 const Hero = () => {
   const [email, setEmail] = useState('');
   const [bgtimer, setBgTimer] = useState(false);
+  const [largeContentfulPaint, setLargeContentfulPaint] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
@@ -19,6 +20,11 @@ const Hero = () => {
     setTimeout(() => {
       setBgTimer(true);
     }, 1500);
+  }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      setLargeContentfulPaint(true);
+    }, 500);
   }, []);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -82,7 +88,11 @@ const Hero = () => {
     <section id="herosection" className="hero">
       <div
         className={`${
-          bgtimer ? Styles.herobackground : Styles.herobackgroundlight
+          !largeContentfulPaint
+            ? 'bg-black'
+            : bgtimer
+            ? Styles.herobackground
+            : Styles.herobackgroundlight
         } `}
       >
         <div className="herotextcontainer main-container pb-8 lg:pb-20 flex flex-col lg:gap-y-16">
