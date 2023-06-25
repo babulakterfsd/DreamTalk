@@ -39,13 +39,13 @@ const Footer = () => {
                   Policy
                 </h6>
                 <div className="flex flex-col gap-y-5 lg:gap-y-3 lg:text-center text-sm">
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Terms
                   </span>
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Privacy
                   </span>
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Conditions
                   </span>
                 </div>
@@ -56,13 +56,13 @@ const Footer = () => {
                   Contact
                 </h6>
                 <div className="flex flex-col gap-y-5 lg:gap-y-3 lg:text-center text-sm">
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Email
                   </span>
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Telegram
                   </span>
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Instagram
                   </span>
                 </div>
@@ -73,13 +73,13 @@ const Footer = () => {
                   Company
                 </h6>
                 <div className="flex flex-col gap-y-5 lg:gap-y-3 lg:text-center text-sm">
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     About
                   </span>
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Branding
                   </span>
-                  <span className="font-light leading-[18px] tracking-[.02em] font-inter text-[rgba(206,211,224,1)] text-[15px]">
+                  <span className="font-light leading-[18px] tracking-[.02em] font-crimson text-[rgba(206,211,224,1)] text-[15px]">
                     Customers
                   </span>
                 </div>

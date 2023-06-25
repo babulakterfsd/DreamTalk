@@ -104,7 +104,7 @@ const Hero = () => {
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              <span className="gradientText font-adieu font-black text-2xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
+              <span className="gradientText font-crimson font-black text-2xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
                 DreamTalk
               </span>
               {/* <span className="font-crimson lg:font-medium lg:text-5xl lg:leading-[45px] lg:tracking-[.06em] capitalize lg:ml-4">
