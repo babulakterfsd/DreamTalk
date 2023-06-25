@@ -2,17 +2,24 @@
 import axios from 'axios';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import logo from '../../../public/assets/images/logo.png';
 import Styles from '../../styles/hero.module.css';
 
 const Hero = () => {
   const [email, setEmail] = useState('');
+  const [bgtimer, setBgTimer] = useState(false);
   const [showResult, setShowResult] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
   const router = useRouter();
+
+  useEffect(() => {
+    setTimeout(() => {
+      setBgTimer(true);
+    }, 1500);
+  }, []);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -73,7 +80,11 @@ const Hero = () => {
 
   return (
     <section id="herosection" className="hero">
-      <div className={`${Styles.herobackground}`}>
+      <div
+        className={`${
+          bgtimer ? Styles.herobackground : Styles.herobackgroundlight
+        } `}
+      >
         <div className="herotextcontainer main-container lg:pb-20 flex flex-col lg:gap-y-16">
           <div
             className="flex justify-start items-center gap-x-2  lg:pt-10 cursor-pointer lg:w-24"
@@ -91,7 +102,7 @@ const Hero = () => {
             <h1
               className="flex items-center gap-x-2 lg:h-20"
               data-aos="fade-down"
-              data-aos-duration="1000"
+              data-aos-duration="1500"
             >
               <span className="gradientText font-adieu font-black text-2xl lg:font-normal lg:text-[38px] lg:leading-[60px] lg:tracking-[-.03em]">
                 DreamTalk
