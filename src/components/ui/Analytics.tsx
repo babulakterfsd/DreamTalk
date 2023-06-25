@@ -23,7 +23,7 @@ const Analytics = () => {
             for data-driven decisions that will further improve the user
             experience. The analytics dashboard provides you with a detailed
             breakdown of trends, insights and identifying the topics that
-            resonate most with your fans.
+            resonate most with your fans
           </p>
         </div>
         <div
