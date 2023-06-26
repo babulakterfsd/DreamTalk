@@ -26,7 +26,7 @@ const Monetize = () => {
             title="dreamtalk.ai - Introduction"
             src="https://player.vimeo.com/video/839659234"
             allow="autoplay; fullscreen; picture-in-picture"
-            className={` rounded-2xl rounded-bl-xl md:h-[560px] md:w-[560px] px-3 md:px-0  -mt-10 md:-mt-0 `}
+            className={` rounded-2xl rounded-bl-xl md:h-[560px] md:w-[560px] px-3 md:px-0  -mt-10 md:-mt-0 z-50`}
             style={{ borderRadius: '2rem' }}
             data-aos="fade-down"
             data-aos-duration="1000"
@@ -42,7 +42,7 @@ const Monetize = () => {
           <Image
             src={redelips}
             alt="monetize"
-            className="lg:absolute -top-24 -left-40 hidden lg:block"
+            className="lg:absolute -top-24 -z-50 -left-40 hidden lg:block"
           />
           <div
             className="textcontainer flex justify-between flex-col"

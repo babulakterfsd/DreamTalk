@@ -110,7 +110,7 @@ const Hero = () => {
               {/* <span className="font-crimson lg:font-medium lg:text-5xl lg:leading-[45px] lg:tracking-[.06em] capitalize lg:ml-4">
                 Interacts
               </span> */}
-              <span className="font-crimson font-extralight lg:font-semibold text-2xl lg:text-5xl lg:leading-[45px] lg:tracking-[.06em] capitalize -mt-2 lg:-mt-1">
+              <span className="font-crimson font-extralight lg:font-semibold text-2xl lg:text-5xl lg:leading-[45px] lg:tracking-[.06em] capitalize lg:-mt-1">
                 <Typewriter
                   words={[
                     'Interacts',
