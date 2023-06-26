@@ -21,13 +21,15 @@ const Monetize = () => {
             DreamTalk AI
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row justify-around gap-x-4 xl:gap-x-20 items-center lg:relative">
+        <div className="flex flex-col lg:flex-row justify-around gap-x-4 xl:gap-x-20 items-center lg:-mt-20 lg:relative">
           <iframe
             title="dreamtalk.ai - Introduction"
-            src="https://player.vimeo.com/video/838030231"
+            src="https://player.vimeo.com/video/839659234"
             allow="autoplay; fullscreen; picture-in-picture"
-            className={` rounded-2xl rounded-bl-xl h-80 px-3 md:px-0  -mt-10 md:-mt-0`}
+            className={` rounded-2xl rounded-bl-xl md:h-[560px] md:w-[560px] px-3 md:px-0  -mt-10 md:-mt-0 `}
             style={{ borderRadius: '2rem' }}
+            data-aos="fade-down"
+            data-aos-duration="1000"
           ></iframe>
           <h1
             className="font-crimson font-bold text-[1.5rem] lg:text-6xl lg:leading-[74px] lg:tracking-normal mt-4 block lg:hidden"
