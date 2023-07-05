@@ -4,13 +4,13 @@
       rgba(0, 0, 0, 0.5) 0%,
       rgba(0, 0, 0, 0.1) 100%
     ),
-    url('../../public/assets/images/webp/dreamtalk-desktop-bannerbg.webp');
+    url('../../public/assets/images/webp/desktopblue.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .herobackgroundlight {
-  background: url('../../public/assets/images/webp/dreamtalk-desktop-bannerbg.webp');
+  background: url('../../public/assets/images/webp/desktopblue.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

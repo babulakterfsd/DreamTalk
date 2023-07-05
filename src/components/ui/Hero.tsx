@@ -17,7 +17,8 @@ const Hero = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setBgTimer(true);
+      // setBgTimer(true);
+      setBgTimer(false); // i want to keep it false for now
     }, 1500);
   }, []);
 
