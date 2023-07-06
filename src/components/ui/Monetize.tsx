@@ -24,7 +24,7 @@ const Monetize = () => {
         <div className="flex flex-col lg:flex-row justify-around gap-x-4 xl:gap-x-20 items-center lg:-mt-20 lg:relative">
           <iframe
             title="dreamtalk.ai - Introduction"
-            src="https://player.vimeo.com/video/839659234"
+            src="https://player.vimeo.com/video/842729461"
             allow="autoplay; fullscreen; picture-in-picture"
             className={` rounded-2xl rounded-bl-xl md:h-[560px] md:w-[560px] px-3 md:px-0  -mt-10 md:-mt-0 z-50`}
             style={{ borderRadius: '2rem' }}
