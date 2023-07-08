@@ -1,3 +1,5 @@
+import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from 'react-icons/bi';
+
 const Possibilities = () => {
   return (
     <section className="bg-[#040d19] pt-20 pb-16 lg:py-28 xl:py-20 relative">
@@ -22,23 +24,21 @@ const Possibilities = () => {
             your <br /> <span className="lg:-ml-40">imagination</span>
           </h1>
         </div> */}
-        <div className="lg:flex justify-center items-center">
-          <h1 className="font-crimson text-2xl leading-[32px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-center lg:px-0 capitalize lg:-ml-10">
-            <span
-              className="block"
-              data-aos="fade-down"
-              data-aos-duration="1500"
-            >
-              The only limit is <br className=" hidden lg:block" />{' '}
-            </span>
-            <span
-              className="block"
-              data-aos="fade-down"
-              data-aos-duration="2000"
-            >
-              your imagination
-            </span>
-          </h1>
+        <div
+          className="flex justify-center items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
+          <div className="flex">
+            <BiSolidQuoteAltLeft className="text-2xl lg:text-6xl lg:mr-12 lg:block"></BiSolidQuoteAltLeft>
+            <h1 className="font-crimson text-2xl leading-[32px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-center lg:px-0 capitalize lg:-ml-10">
+              <span className="block">
+                The only limit is <br className=" hidden lg:block" />{' '}
+              </span>
+              <span className="block">your imagination</span>
+            </h1>
+            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end -mt-36 lg:mt-0 lg:ml-2 lg:block"></BiSolidQuoteAltRight>
+          </div>
         </div>
       </div>
     </section>
