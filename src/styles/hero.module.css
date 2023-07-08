@@ -23,13 +23,13 @@
         rgba(0, 0, 0, 0.1) 0%,
         rgba(0, 0, 0, 0.5) 100%
       ),
-      url('../../public/assets/images/webp/dreamtalk-mobile-bannerbg.webp');
+      url('../../public/assets/images/webp/drmtalk-mob-banner.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 75% 50%;
   }
   .herobackgroundlight {
-    background: url('../../public/assets/images/webp/dreamtalk-mobile-bannerbg.webp');
+    background: url('../../public/assets/images/webp/drmtalk-mob-banner.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 75% 50%;

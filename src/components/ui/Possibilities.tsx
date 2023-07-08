@@ -30,14 +30,12 @@ const Possibilities = () => {
           data-aos-duration="1500"
         >
           <div className="flex">
-            <BiSolidQuoteAltLeft className="text-2xl lg:text-6xl lg:mr-12 lg:block"></BiSolidQuoteAltLeft>
+            <BiSolidQuoteAltLeft className="text-2xl lg:text-6xl mr-2 lg:mr-12 lg:block"></BiSolidQuoteAltLeft>
             <h1 className="font-crimson text-2xl leading-[32px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-center lg:px-0 capitalize lg:-ml-10">
-              <span className="block">
-                The only limit is <br className=" hidden lg:block" />{' '}
-              </span>
+              <span className="block">The only limitation is</span>
               <span className="block">your imagination</span>
             </h1>
-            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end -mt-36 lg:mt-0 lg:ml-2 lg:block"></BiSolidQuoteAltRight>
+            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end lg:block -ml-6 lg:-ml-14"></BiSolidQuoteAltRight>
           </div>
         </div>
       </div>
