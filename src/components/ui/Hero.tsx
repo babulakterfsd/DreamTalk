@@ -83,7 +83,7 @@ const Hero = () => {
     <section id="herosection" className="hero">
       <div
         className={`${
-          bgtimer ? Styles.herobackground : Styles.herobackgroundlight
+          !bgtimer ? Styles.herobackground : Styles.herobackgroundlight
         } `}
       >
         <div className="herotextcontainer main-container pb-8 lg:pb-20 flex flex-col lg:gap-y-16">

@@ -2,7 +2,13 @@ import { BiSolidQuoteAltLeft, BiSolidQuoteAltRight } from 'react-icons/bi';
 
 const Possibilities = () => {
   return (
-    <section className="bg-[#040d19] pt-20 pb-16 lg:py-28 xl:py-20 relative">
+    <section
+      className=" pt-20 pb-16 lg:py-28 xl:py-20 relative"
+      style={{
+        background:
+          'linear-gradient(to right, rgba(3,8,16,1) 1%, rgba(4,13,25,1) 99%)',
+      }}
+    >
       <div className="main-container">
         {/* <div
           className="lg:flex justify-center lg:justify-start items-center"
@@ -35,7 +41,7 @@ const Possibilities = () => {
               <span className="block">The only limitation is</span>
               <span className="block">your imagination</span>
             </h1>
-            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end lg:block -ml-6 lg:-ml-[60px]"></BiSolidQuoteAltRight>
+            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end lg:block -ml-6 lg:-ml-16"></BiSolidQuoteAltRight>
           </div>
         </div>
       </div>

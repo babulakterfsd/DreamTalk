@@ -41,3 +41,16 @@
     width: 60vw !important;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .herobackground {
+    background: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.1) 100%
+      ),
+      url('../../public/assets/images/webp/desktopbigdrmtalk.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
