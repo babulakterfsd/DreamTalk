@@ -35,7 +35,7 @@ const Possibilities = () => {
               <span className="block">The only limitation is</span>
               <span className="block">your imagination</span>
             </h1>
-            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end lg:block -ml-6 lg:-ml-14"></BiSolidQuoteAltRight>
+            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end lg:block -ml-6 lg:-ml-[60px]"></BiSolidQuoteAltRight>
           </div>
         </div>
       </div>
