@@ -9,7 +9,7 @@ const Features = () => {
     <div
       className="py-20 lg:py-36"
       style={{
-        background: 'linear-gradient(to bottom right, rgba(4,13,25,1), #000)',
+        background: 'linear-gradient(to bottom, rgba(4,13,25,1), #000)',
       }}
     >
       <div className="">
