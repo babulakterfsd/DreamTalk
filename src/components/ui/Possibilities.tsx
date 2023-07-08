@@ -29,7 +29,7 @@ const Possibilities = () => {
           data-aos="zoom-in"
           data-aos-duration="1500"
         >
-          <div className="flex">
+          <div className="flex -ml-2 lg:-ml-20">
             <BiSolidQuoteAltLeft className="text-2xl lg:text-6xl mr-2 lg:mr-12 lg:block"></BiSolidQuoteAltLeft>
             <h1 className="font-crimson text-2xl leading-[32px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-center lg:px-0 capitalize lg:-ml-10">
               <span className="block">The only limitation is</span>
