@@ -36,12 +36,12 @@ const Possibilities = () => {
           data-aos-duration="1500"
         >
           <div className="flex -ml-2 lg:-ml-20">
-            <BiSolidQuoteAltLeft className="text-2xl lg:text-6xl mr-2 lg:mr-12 lg:block"></BiSolidQuoteAltLeft>
-            <h1 className="font-crimson text-2xl leading-[32px] lg:text-6xl lg:leading-[64px] font-bold lg:font-semibold text-center lg:px-0 capitalize lg:-ml-10">
+            <BiSolidQuoteAltLeft className="text-2xl lg:text-5xl mr-2 lg:mr-12 lg:block"></BiSolidQuoteAltLeft>
+            <h1 className="font-crimson text-2xl leading-[32px] lg:text-5xl lg:leading-[52px] font-bold lg:font-semibold text-center lg:px-0 capitalize lg:-ml-10">
               <span className="block">The only limitation is</span>
               <span className="block">your imagination</span>
             </h1>
-            <BiSolidQuoteAltRight className="text-2xl lg:text-6xl self-end lg:block -ml-6 lg:-ml-16"></BiSolidQuoteAltRight>
+            <BiSolidQuoteAltRight className="text-2xl lg:text-5xl self-end lg:block -ml-6 lg:-ml-12"></BiSolidQuoteAltRight>
           </div>
         </div>
       </div>
