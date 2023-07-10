@@ -52,5 +52,6 @@
       url('../../public/assets/images/webp/desktopbigdrmtalk.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
   }
 }
